@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider Example</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS (v11 CDN) -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <style>
+    .swiper-autoplay-progress {
+        position: absolute;
+        left: 0; right: 0; bottom: 0;
+        height: 4px;
+        background: rgba(0,0,0,0.1);
+        width: 100%;
+        z-index: 10;
+        pointer-events: none;
+    }
+    .swiper-autoplay-progress-bar {
+        height: 100%;
+        width: 0%;
+        background: #007bff;
+        transition: width 0s;
+    }
+    .swiper:hover .swiper-autoplay-progress-bar {
+        background: #0056b3;
+    }
+    </style>
+</head>
+<!-- <body data-swiper-autoplay-delay="1000" data-swiper-loop="true" data-swiper-autoplay-hover-pause="true"> -->
+<body>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Swiper Slider Example</h2>
+        <!-- Swiper -->
+        <div
+            class="swiper position-relative"
+            data-swiper-loop="true"
+            data-swiper-autoplay="true" 
+            data-swiper-autoplay-progress="true"
+            data-swiper-space-between="24"
+            data-swiper-autoplay-delay="3000"
+            data-swiper-autoplay-disable-on-interaction="false"
+            data-swiper-slides-per-view="1"
+            data-swiper-breakpoints='{"576":{"slidesPerView":2},"992":{"slidesPerView":3}}'
+            data-swiper-autoplay-hover-pause="true"
+            data-swiper-pagination-type="fraction"
+        >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=1" class="card-img-top" alt="Slide 1" title="Slide 1" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=2" class="card-img-top" alt="Slide 2" title="Slide 2" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=3" class="card-img-top" alt="Slide 3" title="Slide 3" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=4" class="card-img-top" alt="Slide 4" title="Slide 4" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 4</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=5" class="card-img-top" alt="Slide 5" title="Slide 5" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 5</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-autoplay-progress">
+              <div class="swiper-autoplay-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Swiper Thumbs Gallery</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Main Gallery Swiper -->
+                <div class="swiper gallery-main position-relative mb-3" data-swiper-thumbs=".gallery-thumbs" data-swiper-slides-per-view="1" data-swiper-space-between="10" data-swiper-navigation="true" data-swiper-pagination-type="fraction">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=1" class="img-fluid w-100" alt="Main 1" title="Main 1" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=2" class="img-fluid w-100" alt="Main 2" title="Main 2" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=3" class="img-fluid w-100" alt="Main 3" title="Main 3" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=4" class="img-fluid w-100" alt="Main 4" title="Main 4" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=5" class="img-fluid w-100" alt="Main 5" title="Main 5" width="" height="" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Thumbs Swiper -->
+                <div class="swiper gallery-thumbs mt-2" data-swiper-slides-per-view="3" data-swiper-space-between="10" data-swiper-watch-slides-progress="true" data-swiper-free-mode="true">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=1" class="img-fluid w-100 border rounded" alt="Thumb 1" title="Thumb 1" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=2" class="img-fluid w-100 border rounded" alt="Thumb 2" title="Thumb 2" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=3" class="img-fluid w-100 border rounded" alt="Thumb 3" title="Thumb 3" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=4" class="img-fluid w-100 border rounded" alt="Thumb 4" title="Thumb 4" width="" height="" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=5" class="img-fluid w-100 border rounded" alt="Thumb 5" title="Thumb 5" width="" height="" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Swiper Slider Example</h2>
+        <!-- Swiper -->
+        <div
+            class="swiper"
+            data-swiper-loop="true"
+            data-swiper-autoplay="false" 
+            data-swiper-space-between="24"
+            data-swiper-autoplay-delay="5000"
+            data-swiper-autoplay-disable-on-interaction="false"
+            data-swiper-slides-per-view="1"
+            data-swiper-breakpoints='{"576":{"slidesPerView":2},"992":{"slidesPerView":4}}'
+            data-swiper-autoplay-hover-pause="true"
+            data-swiper-pagination-type="progressbar"
+            data-swiper-pagination-type="fraction"
+        >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=1" class="card-img-top" alt="Slide 1" title="Slide 1" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=2" class="card-img-top" alt="Slide 2" title="Slide 2" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=3" class="card-img-top" alt="Slide 3" title="Slide 3" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=4" class="card-img-top" alt="Slide 4" title="Slide 4" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 4</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=5" class="card-img-top" alt="Slide 5" title="Slide 5" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 5</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=6" class="card-img-top" alt="Slide 1" title="Slide 1" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=7" class="card-img-top" alt="Slide 2" title="Slide 2" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=8" class="card-img-top" alt="Slide 3" title="Slide 3" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=9" class="card-img-top" alt="Slide 4" title="Slide 4" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 4</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img data-src="https://placehold.co/600x400?text=10" class="card-img-top" alt="Slide 5" title="Slide 5" width="" height="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 5</h5>
+                            <p class="card-text">This is a Bootstrap 5 card inside a Swiper slide.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Swiper Effect: Fade</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div
+                    class="swiper fade-effect-slider position-relative"
+                    data-swiper-effect="fade"
+                    data-swiper-slides-per-view="1"
+                    data-swiper-space-between="0"
+                    data-swiper-autoplay="true"
+                    data-swiper-autoplay-delay="3000"
+                    data-swiper-loop="true"
+                    data-swiper-pagination-type="fraction"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Fade+1" class="img-fluid w-100" alt="Fade 1" title="Fade 1" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Fade+2" class="img-fluid w-100" alt="Fade 2" title="Fade 2" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Fade+3" class="img-fluid w-100" alt="Fade 3" title="Fade 3" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Fade+4" class="img-fluid w-100" alt="Fade 4" title="Fade 4" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Swiper Effect: Vertical</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div
+                    class="swiper vertical-slider position-relative"
+                    style="height: 400px;"
+                    data-swiper-direction="vertical"
+                    data-swiper-slides-per-view="1"
+                    data-swiper-space-between="0"
+                    data-swiper-autoplay="true"
+                    data-swiper-autoplay-delay="2500"
+                    data-swiper-loop="true"
+                    data-swiper-pagination-type="fraction"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Vertical+1" class="img-fluid w-100" alt="Vertical 1" title="Vertical 1" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Vertical+2" class="img-fluid w-100" alt="Vertical 2" title="Vertical 2" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Vertical+3" class="img-fluid w-100" alt="Vertical 3" title="Vertical 3" /></div>
+                        <div class="swiper-slide"><img src="https://placehold.co/600x400?text=Vertical+4" class="img-fluid w-100" alt="Vertical 4" title="Vertical 4" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle (for layout, not required for Swiper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS (v11 CDN) -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-custom.js"></script>
+</body>
+</html>
