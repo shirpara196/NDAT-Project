@@ -142,6 +142,8 @@
                                 </ul>
                             </li>
                         </ul>
+                        <h6 class="sm-title">Eligibility</h6>
+                        
                     </div>
                 </div>
             </div>
