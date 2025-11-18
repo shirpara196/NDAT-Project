@@ -292,10 +292,56 @@
     </div>
 </section>
 
-<section class="campus-section">
-    
+<section class="campus-section section-gap double-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                <div class="campus-tour">
+                    <h2 class="main-title"><span>Campus</span> Tour</h2>
+                    <div class="campus-story">
+                        <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                            <div class="thumbnail" bis_skin_checked="1">
+                                <img class="lazy entered loaded" src="assets/images/campus-tour.png"
+                                    data-src="assets/images/about-img.webp" alt="campus-img" data-ll-status="loaded">
+                            </div>
+                        </div>
+                        
+                        <video autoplay="" controls="" muted=""
+                            class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
+                            <source class="embed-responsive-item"
+                                src="assets/images/125060-732641221_small.mp4"
+                                type="video/mp4">
+                        </video>
+                        <span class="campus-play-btn">
+                            <button class="campus-video-modal" aria-label="play video">
+                                <i class="n-icon" data-icon="i-playicon"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                <div class="top-recruiters">
+                    <h2 class="main-title"><span>Top</span> Recruiters</h2>
+                </div>
+                <div class="recruiters-slider">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+<script>
+    $(document).ready(function () {
+    jQuery('.campus-video-modal').on('click', function () {
+        jQuery('.campus-open-videos').removeClass('d-none');
+        jQuery('.campus-open-videos').trigger('play');
+        jQuery('.campus-open-videos').prev().addClass('d-none');
+        jQuery(this).hide();
+    });
+});
+</script>
 
 <?php include 'Template/footer-main.php'; ?>
 <?php include 'Template/footer.php'; ?>

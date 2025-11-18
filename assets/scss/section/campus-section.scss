@@ -1,0 +1,55 @@
+.campus-section {
+    border-top: 2px solid #E9EBEE;
+    position: relative;
+    z-index: 2;
+
+    .campus-tour {
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            background-color: #28a745;
+            background-image: url(../images/campus-bg.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            width: 480px;
+            height: 550px;
+            z-index: -1;
+            border-bottom-right-radius: 100px;
+        }
+
+        .main-title {
+            margin-bottom: 100px;
+        }
+        .campus-story {
+            position: relative;
+            .thumbnail-container {
+                padding-bottom: 57%;
+                border-radius: 20px;
+            }
+            .campus-play-btn {
+                button {
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    background: transparent;
+                }
+            }
+            video {
+                height: 100%;
+                width: 100%;
+                border-radius: 20px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
