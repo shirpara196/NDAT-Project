@@ -285,6 +285,14 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section></section>
 
     <section class="overview-section section-gap double-gap-b">
         <div class="container">
@@ -352,7 +360,7 @@
             </div>
         </div>
     </section>
-</div>
+
 
 <section class="admission-section">
     <div class="container-fluid ps-0">
