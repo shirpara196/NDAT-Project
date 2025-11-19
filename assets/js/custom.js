@@ -102,3 +102,26 @@ slidesPerView: 1,
  
   }
 });
+var thumbSwiper = new Swiper(".glimpseThumb", {
+  direction: "horizontal",
+  slidesPerView: 3,
+  breakpoints: {
+    991: {
+      direction: "vertical",
+    },
+ 
+ 
+  }
+
+});
+ 
+var mainSwiper = new Swiper(".glimpseSwiper", {
+  spaceBetween: 10,
+  thumbs: {
+    swiper: thumbSwiper,
+  },
+  pagination: {
+    el: ".glimpseSwiper .swiper-pagination",
+    clickable: true,
+  },
+});

@@ -122,6 +122,19 @@
                 flex-wrap: wrap;
                 gap: 20px;
                 align-items: center;
+                .btn-white {
+                    color: $black;
+                    &:hover {
+                        color: $white;
+                        .n-icon {
+                            svg {
+                                path {
+                                    fill: $white;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
