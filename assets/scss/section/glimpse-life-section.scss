@@ -1,0 +1,92 @@
+.glimpse-life-section {
+    position: relative;
+    z-index: 2;
+    background-image: url(../images/glimpse-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(40, 167, 69, 0.95);
+        backdrop-filter: blur(10px);
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 0.95;
+        z-index: -2;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url(../images/glimpse-shape.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        background-position: right bottom;
+        display: block;
+        z-index: -1;
+    }
+
+    >.container {
+        >.row {
+            margin-top: -150px;
+        }
+    }
+
+    .glimpse-left {
+        .main-title {
+            color: $white;
+            margin-bottom: 64px;
+        }
+        p {
+            font-size: $fs-base;
+            line-height: 30px;
+            color: $white;
+        }
+    }
+    .product-gallery {
+  display: flex;
+  gap: 15px;
+}
+
+.mainSwiper {
+  width: 100%;
+}
+
+.mainSwiper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thumbSwiper {
+  width: 120px;
+  height: 500px;
+}
+
+.thumbSwiper .swiper-slide {
+  height: auto !important;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.thumbSwiper .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+}
+
+.thumbSwiper img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+}
