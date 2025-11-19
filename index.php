@@ -143,7 +143,7 @@
                             </li>
                         </ul>
                         <h6 class="sm-title">Eligibility</h6>
-                        
+
                     </div>
                 </div>
             </div>
@@ -243,11 +243,12 @@
                                         26+ Research Papers published in international journals & conferences
                                     </p>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div id="career_opportunities" class="tab-pane fade">
-                            <p class="pc-title">Graduates of the B.Des. (Humanising Technology) can look forward to diverse career opportunities, including:</p>
+                            <p class="pc-title">Graduates of the B.Des. (Humanising Technology) can look forward to
+                                diverse career opportunities, including:</p>
                             <div class="pc-list career-opportunities">
                                 <div class="pc-item">
                                     <i class="n-icon pc-icon" data-icon="i-idesigner"></i>
@@ -296,7 +297,7 @@
 
 <section class="campus-section section-gap double-gap">
     <div class="container">
-        <div class="row">
+        <div class="row gy-5">
             <div class="col-lg-7 col-md-6 col-sm-12 col-12">
                 <div class="campus-tour">
                     <h2 class="main-title"><span>Campus</span> Tour</h2>
@@ -304,14 +305,13 @@
                         <div class="thumbnail-container object-fit" bis_skin_checked="1">
                             <div class="thumbnail" bis_skin_checked="1">
                                 <img class="lazy entered loaded" src="assets/images/campus-tour.png"
-                                    data-src="assets/images/about-img.webp" alt="campus-img" data-ll-status="loaded">
+                                    data-src="assets/images/campus-tour.png" alt="campus-img" data-ll-status="loaded">
                             </div>
                         </div>
-                        
+
                         <video autoplay="" controls="" muted=""
                             class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
-                            <source class="embed-responsive-item"
-                                src="assets/images/125060-732641221_small.mp4"
+                            <source class="embed-responsive-item" src="assets/images/125060-732641221_small.mp4"
                                 type="video/mp4">
                         </video>
                         <span class="campus-play-btn">
@@ -325,9 +325,190 @@
             <div class="col-lg-5 col-md-6 col-sm-12 col-12">
                 <div class="top-recruiters">
                     <h2 class="main-title"><span>Top</span> Recruiters</h2>
+                    <div class="recruiters-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="recruiters-card">
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
+                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
+                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
+                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
+                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
+                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
+                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="recruiters-card">
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
+                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
+                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
+                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
+                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
+                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
+                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="recruiters-card">
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
+                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
+                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
+                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
+                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
+                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                        <div class="thumbnail" bis_skin_checked="1">
+                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
+                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
+                                                data-ll-status="loaded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
-                <div class="recruiters-slider">
-                    
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="glimpse-life-section section-gap double-gap-b">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-12 col-12">
+                <div class="glimpse-left">
+                    <h2 class="main-title"><span>A Glimpse into Life at</span> NMIMS School of Design</h2>
+                    <p>
+                        From hands-on studio sessions and tech-driven experiments to vibrant campus moments, every day
+                        here inspires you to design, innovate, and grow!
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-12 col-12">
+                <div class="product-gallery">
+                    <!-- Vertical Thumbnails -->
+                    <div class="swiper thumbSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/images/glimpse1.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse2.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse3.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse4.png" /></div>
+                        </div>
+                    </div>
+
+                    <!-- Main Image Slider -->
+                    <div class="swiper mainSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/images/glimpse1.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse2.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse3.png" /></div>
+                            <div class="swiper-slide"><img src="assets/images/glimpse4.png" /></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -336,14 +517,46 @@
 
 <script>
     $(document).ready(function () {
-    jQuery('.campus-video-modal').on('click', function () {
-        jQuery('.campus-open-videos').removeClass('d-none');
-        jQuery('.campus-open-videos').trigger('play');
-        jQuery('.campus-open-videos').prev().addClass('d-none');
-        jQuery(this).hide();
+        jQuery('.campus-video-modal').on('click', function () {
+            jQuery('.campus-open-videos').removeClass('d-none');
+            jQuery('.campus-open-videos').trigger('play');
+            jQuery('.campus-open-videos').prev().addClass('d-none');
+            jQuery(this).hide();
+        });
+        var swiper = new Swiper(".recruiters-slider", {
+            loop: true,
+            autoplay: false,
+            slidesPerView: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
     });
-});
+
 </script>
+
+<script>
+    $(document).ready(function () {
+        var thumbSwiper = new Swiper(".thumbSwiper", {
+            direction: "vertical",
+            slidesPerView: 4,
+            spaceBetween: 10,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+
+        var mainSwiper = new Swiper(".mainSwiper", {
+            direction: "vertical", // make main slider vertical
+            spaceBetween: 10,
+            loop: true,
+            thumbs: {
+                swiper: thumbSwiper,
+            },
+        });
+    });
+</script>
+
 
 <?php include 'Template/footer-main.php'; ?>
 <?php include 'Template/footer.php'; ?>
