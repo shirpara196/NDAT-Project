@@ -210,8 +210,6 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="sm-title">Eligibility</h6>
-
                     </div>
                 </div>
             </div>
@@ -602,7 +600,7 @@
                 clickable: true,
             },
         });
-    });
+
 
 </script>
 
