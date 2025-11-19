@@ -50,7 +50,7 @@
                             <div class="hero-btn">
                                 <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
                                             class="n-icon" data-icon="i-msg"></i></span></a>
-                                <a href="#" title="Apply Now" class="btn btn-white">Download Brochure <span
+                                <a href="#" title="Download Brochure" class="btn btn-white">Download Brochure <span
                                         class="icon"><i class="n-icon" data-icon="i-herobook"></i></span></a>
                             </div>
                         </div>
@@ -60,9 +60,19 @@
         </div>
 
     </div>
+
 </section>
 
+
 <div class="bg-wrap">
+    <div class="line-shape">
+        <div class="thumbnail-container object-fit" bis_skin_checked="1">
+            <div class="thumbnail" bis_skin_checked="1">
+                <img class="lazy entered loaded" src="assets/images/hero-shape.png"
+                    data-src="assets/images/about-img.webp" alt="about-img" data-ll-status="loaded">
+            </div>
+        </div>
+    </div>
     <section class="about-section section-gap">
         <div class="container">
             <div class="row">
@@ -857,7 +867,94 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12 col-12">
+                <div class="glimpse-main-section">
+                    <!-- Main Slider -->
+                    <div class="swiper glimpseSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse1.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse2.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse3.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse4.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- Thumbnail Slider (Vertical) -->
+                    <div class="swiper glimpseThumb">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse1.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse2.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse3.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/glimpse4.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

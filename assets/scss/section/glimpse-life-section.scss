@@ -6,7 +6,18 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 45px;
+    margin-top: 200px;
+
+    @include media-breakpoint-down(xl) {
+        margin-top: 150px;
+    }
+
+    @include media-breakpoint-down(md) {
+        margin-top: 50px;
+    }
+
+
     &::after {
         content: "";
         position: absolute;
@@ -38,19 +49,195 @@
 
     >.container {
         >.row {
-            margin-top: -150px;
+            margin-top: -167px;
+
+            @include media-breakpoint-down(xxl) {
+                margin-top: -150px;
+            }
+
+            @include media-breakpoint-down(xl) {
+                margin-top: -145px;
+            }
+
+            @include media-breakpoint-down(md) {
+                margin-top: 0px;
+            }
         }
     }
 
     .glimpse-left {
+
+        @include media-breakpoint-down(md) {
+            margin-bottom: 25px;
+        }
+
         .main-title {
             color: $white;
             margin-bottom: 64px;
+
+            @include media-breakpoint-down(xxl) {
+                margin-bottom: 50px;
+            }
+
+            @include media-breakpoint-down(xl) {
+                margin-bottom: 40px;
+            }
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 15px;
+                font-size: 30px;
+
+                span {
+                    color: $black;
+                }
+            }
         }
+
         p {
             font-size: $fs-base;
             line-height: 30px;
             color: $white;
+
+            @include media-breakpoint-down(md) {
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .glimpse-main-section {
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+
+        @include media-breakpoint-down(lg) {
+            gap: 20px;
+        }
+
+    }
+
+    .glimpseSwiper {
+        width: 70%;
+        border-radius: 8px;
+        overflow: hidden;
+        padding-bottom: 64px;
+
+        @include media-breakpoint-down(lg) {
+            padding-bottom: 0;
+        }
+
+        .swiper-slide {
+
+            .thumbnail-container {
+                padding-bottom: 87%;
+                border-radius: 10px 10px 40px 10px;
+                box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+
+                img {
+                    border-radius: 10px 10px 40px 10px;
+                }
+
+                @include media-breakpoint-down(md) {
+                    padding-bottom: 55%;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: $white;
+            @include media-breakpoint-down(md) {
+                background: $primary;
+            }
+        }
+
+        .swiper-pagination-bullet {
+            background: $black;
+            opacity: 1;
+            @include media-breakpoint-down(md) {
+                background: $white;
+            }
+        }
+    }
+
+    .glimpseThumb {
+        width: 25%;
+        height: 450px;
+
+        @include media-breakpoint-down(xl) {
+            height: 380px;
+        }
+
+        .swiper-slide {
+            height: auto !important;
+            margin-bottom: 0 !important;
+
+            .thumbnail-container {
+                padding-bottom: 68%;
+                box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+                border-radius: 10px 10px 40px 10px;
+
+                img {
+                    border-radius: 10px 10px 40px 10px;
+                }
+            }
+        }
+
+        .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px 10px 40px 10px;
+        }
+
+        .swiper-wrapper {
+            gap: 35px;
+
+            @include media-breakpoint-down(xl) {
+                gap: 30px;
+            }
+
+            @include media-breakpoint-down(lg) {
+                gap: 20px;
+            }
+
+            @include media-breakpoint-down(md) {
+                gap: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .glimpse-main-section {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .glimpse-main-section {
+            flex-direction: column;
+        }
+
+        .glimpseSwiper {
+            width: 100%;
+            height: auto;
+        }
+
+        .glimpseThumb {
+            width: 100%;
+            height: auto;
+
         }
     }
 }
