@@ -1,0 +1,130 @@
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+
+    >.container-fluid {
+        padding: 0;
+    }
+
+    .hero-slider {
+        height: 710px;
+        @include media-breakpoint-down(xl) {
+            height: 600px;
+        }
+        @include media-breakpoint-down(lg) {
+            height: 500px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.64);
+            z-index: 1;
+        }
+
+        .swiper-slide {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            .thumbnail-container {
+                height: 100%;
+            }
+        }
+
+        .swiper-pagination {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: end;
+            left: unset;
+            bottom: unset;
+            right: 63px;
+            top: 50%;
+            transform: translateY(-50%);
+            gap: 18px;
+            z-index: 10;
+            pointer-events: auto;
+            @include media-breakpoint-down(xl) {
+                right: 50px;
+            }
+            @include media-breakpoint-down(lg) {
+                right: 20px;
+                gap: 10px;
+            }
+            @include media-breakpoint-down(md) {
+                right: 15px;
+            }
+        }
+
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: $primary;
+        }
+
+        .swiper-pagination-bullet {
+            background: $white;
+            opacity: 1;
+        }
+    }
+
+    .hero-inner {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        pointer-events: none;
+        @include media-breakpoint-down(md) {
+            left: 20px;
+            right: 30px;
+        }
+
+        .hero-left {
+            pointer-events: auto;
+            .main-title {
+                color: $white;
+                font-weight: 500;
+                margin-bottom: 35px;
+
+                @include media-breakpoint-down(xl) {
+                    margin-bottom: 30px;
+                }
+                @include media-breakpoint-down(lg) {
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    color: $tertiary;
+                }
+            }
+
+            p {
+                font-size: $fs-base;
+                line-height: 30px;
+                margin-bottom: 48px;
+                color: $white;
+                @include media-breakpoint-down(xl) {
+                    margin-bottom: 30px;
+                }
+                @include media-breakpoint-down(lg) {
+                    margin-bottom: 20px;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+            }
+
+            .hero-btn {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+    }
+}

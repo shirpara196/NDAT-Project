@@ -34,13 +34,71 @@ $(document).ready(function () {
         jQuery('.campus-open-videos').prev().addClass('d-none');
         jQuery(this).hide();
     });
+    var swiper = new Swiper(".recruiters-slider", {
+        loop: true,
+        autoplay: false,
+        slidesPerView: 1,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
 });
-var swiper = new Swiper(".recruiters-slider", {
-    loop: true,
-    autoplay: false,
-    slidesPerView: 1,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+$(document).ready(function () {
+    var swiper = new Swiper(".hero-slider", {
+        direction: "vertical",
+        freeMode: true,
+        loop: true,
+        autoplay: false,
+        slidesPerView: 1,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+});
+var swiper = new Swiper(".industry-slider", {
+  loop: true,
+  autoplay:false,
+slidesPerView: 1,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".industry-button-next",
+    prevEl: ".industry-button-prev",
+  },
+  breakpoints: {
+    1200: {
+      slidesPerView: 3,
+       spaceBetween: 31,
     },
+ 
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 25,
+    },
+ 
+  }
+});
+
+var swiper = new Swiper(".student-slider", {
+  loop: true,
+  autoplay:false,
+slidesPerView: 1,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".student-button-next",
+    prevEl: ".student-button-prev",
+  },
+  breakpoints: {
+    1200: {
+      slidesPerView: 3,
+       spaceBetween: 31,
+    },
+ 
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 25,
+    },
+ 
+  }
 });
