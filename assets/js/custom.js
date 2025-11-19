@@ -46,7 +46,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     var swiper = new Swiper(".hero-slider", {
-        direction: "vertical",
+        
         freeMode: true,
         loop: true,
         autoplay: false,
