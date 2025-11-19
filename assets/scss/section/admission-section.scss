@@ -1,4 +1,21 @@
 .admission-section {
+    position: relative;
+    z-index: 1;
+    &::after{
+        content: "";
+        height: 238px;
+        width: 48%;
+        position: absolute;
+        top: -102px;
+        right: 0;
+        border-radius: 80px 0 0 0;
+        z-index: -1;
+        background-color: $primary;
+        background-image: url(../images/admission-shape-bg.png);
+        background-size: contain;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
     .main-title {
         margin-bottom: 35px;
     }
@@ -12,22 +29,107 @@
         padding: 90px 63px;
         background: #F0F0F0;
         border-radius: 0 0 80px 0;
-        max-width: 1264px;
+        width: calc(100% - 176px);
     }
 
-    .ul-list{
+    .ul-list {
         padding-left: 20px;
         margin-bottom: 55px;
-        padding-bottom:55px;
+        padding-bottom: 55px;
         border-bottom: 1px solid $primary;
-        ul{
+
+        ul {
             padding-left: 20px;
         }
-        li{
+
+        li {
             list-style: disc !important;
-            &::marker{
+
+            &::marker {
                 font-size: 14px;
+
+            }
+        }
+    }
+
+    .steps {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        border-bottom: 1px solid $primary;
+        padding-bottom: 62px;
+        margin-bottom: 62px;
+
+        .item {
+            position: relative;
+            z-index: 1;
+            padding-top: 39px;
+
+            &::after {
+                content: "";
+                height: 100%;
+                width: 3px;
+                background: $primary;
+                position: absolute;
+                top: 0;
+                left: 42px;
+                z-index: -1;
+                border-radius: 5px;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 38px;
+                height: 79px;
+                width: 45px;
+                background: url(../images/border-shape.png);
+                background-size: 100% 100%;
+                background-position: center;
+                z-index: 1;
                 
+            }
+        }
+
+        .step {
+            background: $primary;
+            border-radius: 100px;
+            padding: 12px 32px;
+            color: $white;
+            font-weight: $fw-b;
+            border: 10px solid #F0F0F0;
+            text-shadow: 0px 4px 4px #0000008F;
+            height: 76px;
+            position: relative;
+            @include css3-prefix(transition, 0.5s ease-in-out);
+            span {
+                position: absolute;
+                display: inline-block;
+                left: 32px;
+                top: 50%;
+                transform: translateY(-50%);
+                @include css3-prefix(transition, 0.5s ease-in-out);
+            }
+            &:hover {
+                background: $black;
+                span {
+                    left: calc(100% - 80px);
+                    
+                }
+            }
+        }
+
+        .text {
+            padding-left: 60px;
+            margin-top: 20px;
+        }
+    }
+    .document{
+        margin-top: 35px;
+        .wrap{
+            &:hover{
+                a{
+                    color: $secondary;
+                }
             }
         }
     }

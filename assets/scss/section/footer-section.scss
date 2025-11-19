@@ -1,0 +1,117 @@
+.footer-section {
+    background-color: $black;
+ 
+    .footer-heading {
+        color: $primary;
+        font-size: $fs-h5;
+        font-weight: $fw-m;
+        margin-bottom: 40px;
+ 
+         @include media-breakpoint-down(md) {
+               font-size: 24px;
+               margin-bottom: 20px;
+            }
+    }
+ 
+    .quick-links {
+        ul {
+            gap: 35px;
+                flex-wrap: wrap;
+ 
+            @include media-breakpoint-down(xxl) {
+                gap: 15px;
+            }
+         
+            @include media-breakpoint-down(md) {
+                margin-bottom:25px;
+            }
+ 
+            li {
+                a {
+                    color: $white;
+                    font-weight: $fw-r;
+                    &:hover{
+                        color: $tertiary;
+                    }
+                }
+            }
+        }
+    }
+ .social-icon{
+    ul{
+        gap: 27px;
+        a{
+            svg,path{
+                @include css3-prefix(transition, 0.5s ease-in-out);
+            }
+         &:hover{
+            svg,path{
+                fill: $tertiary;
+            }
+         }   
+        }
+    }
+ }
+    @include media-breakpoint-up(xxl) {
+        .container {
+            max-width: 1317px;
+        }
+    }
+ 
+ 
+ 
+    .address {
+        p {
+            color: $white;
+            font-weight: $fw-r;
+            line-height: 30px;
+        }
+        a{
+            &:hover{
+                color: $tertiary;
+            }
+        }
+ 
+        .sub-footer-title {
+            color: $white;
+            font-weight: $fw-r;
+            font-size: $fs-base;
+            font-weight: 800;
+            line-height: 30px;
+        }
+ 
+        .main-address {
+            gap: 14px;
+        }
+ 
+        .contact-main {
+            margin-left: 32px;
+                margin-bottom: 5px;
+        }
+    }
+ 
+    ::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 458px;
+        height: 638px;
+        background-image: url(../images/footer.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        z-index: -1;
+        opacity: 0.05;
+    }
+    .copyright{
+        color: $white;
+            font-weight: $fw-r;
+            font-size: 12px;
+            padding: 68px 0;
+            border-top: 1px solid #444444;
+ 
+             @include media-breakpoint-down(md) {
+               padding: 38px 0;
+            }
+    }
+}

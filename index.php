@@ -142,8 +142,75 @@
                                 </ul>
                             </li>
                         </ul>
-                        <h6 class="sm-title">Eligibility</h6>
-                        
+                        <h6 class="sm-title">Steps to Apply</h6>
+                        <div class="steps">
+                            <div class="item">
+                                <span class="step d-block"><span>Step 1</span></span>
+                                <div class="text">
+                                    <p>Register online and pay the application fee</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="step d-block"><span>Step 2</span></span>
+                                <div class="text">
+                                    <p>Appear for Entrance Exam & personal Interview</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="step d-block"><span>Step 3</span></span>
+                                <div class="text">
+                                    <p>Check your name in the Merit List</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="step d-block"><span>Step 4</span></span>
+                                <div class="text">
+                                    <p>Complete the admission form with required documents</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="step d-block"><span>Step 5</span></span>
+                                <div class="text">
+                                    <p>Pay the admission fee & complete the process</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="sm-title">Important Documents</h6>
+                        <div class="document d-flex">
+                            <div class="item d-flex flex-grow-1">
+                                <div class="wrap">
+                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                    <img src="assets/images/i-pdf.png" alt="pdf">
+                                </a>
+                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                </div>
+                            </div>
+                            <div class="item d-flex flex-grow-1">
+                                <div class="wrap">
+                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                    <img src="assets/images/i-pdf.png" alt="pdf">
+                                </a>
+                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                </div>
+                            </div>
+                            <div class="item d-flex flex-grow-1">
+                                <div class="wrap">
+                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                    <img src="assets/images/i-pdf.png" alt="pdf">
+                                </a>
+                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                </div>
+                            </div>
+                            <div class="item d-flex flex-grow-1">
+                                <div class="wrap">
+                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                    <img src="assets/images/i-pdf.png" alt="pdf">
+                                </a>
+                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -243,11 +310,12 @@
                                         26+ Research Papers published in international journals & conferences
                                     </p>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div id="career_opportunities" class="tab-pane fade">
-                            <p class="pc-title">Graduates of the B.Des. (Humanising Technology) can look forward to diverse career opportunities, including:</p>
+                            <p class="pc-title">Graduates of the B.Des. (Humanising Technology) can look forward to
+                                diverse career opportunities, including:</p>
                             <div class="pc-list career-opportunities">
                                 <div class="pc-item">
                                     <i class="n-icon pc-icon" data-icon="i-idesigner"></i>
@@ -307,11 +375,10 @@
                                     data-src="assets/images/about-img.webp" alt="campus-img" data-ll-status="loaded">
                             </div>
                         </div>
-                        
+
                         <video autoplay="" controls="" muted=""
                             class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
-                            <source class="embed-responsive-item"
-                                src="assets/images/125060-732641221_small.mp4"
+                            <source class="embed-responsive-item" src="assets/images/125060-732641221_small.mp4"
                                 type="video/mp4">
                         </video>
                         <span class="campus-play-btn">
@@ -327,7 +394,7 @@
                     <h2 class="main-title"><span>Top</span> Recruiters</h2>
                 </div>
                 <div class="recruiters-slider">
-                    
+
                 </div>
             </div>
         </div>
@@ -336,13 +403,13 @@
 
 <script>
     $(document).ready(function () {
-    jQuery('.campus-video-modal').on('click', function () {
-        jQuery('.campus-open-videos').removeClass('d-none');
-        jQuery('.campus-open-videos').trigger('play');
-        jQuery('.campus-open-videos').prev().addClass('d-none');
-        jQuery(this).hide();
+        jQuery('.campus-video-modal').on('click', function () {
+            jQuery('.campus-open-videos').removeClass('d-none');
+            jQuery('.campus-open-videos').trigger('play');
+            jQuery('.campus-open-videos').prev().addClass('d-none');
+            jQuery(this).hide();
+        });
     });
-});
 </script>
 
 <?php include 'Template/footer-main.php'; ?>
