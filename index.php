@@ -1,6 +1,67 @@
 <?php include 'Template/header.php'; ?>
 <?php include 'Template/header-main.php'; ?>
 
+
+<section class="hero-section">
+    <div class="container-fluid">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                        <div class="thumbnail" bis_skin_checked="1">
+                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
+                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                        <div class="thumbnail" bis_skin_checked="1">
+                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
+                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                        <div class="thumbnail" bis_skin_checked="1">
+                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
+                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-inner">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="hero-left">
+                            <h2 class="main-title"><span>Build the Future</span> with Human Centered
+                                <span>Design</span>
+                            </h2>
+                            <p>
+                                Turn creativity into impact with NMIMS School of Design’s Bachelor’s Program,
+                                where innovation meets empathy!
+                            </p>
+                            <div class="hero-btn">
+                                <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
+                                            class="n-icon" data-icon="i-msg"></i></span></a>
+                                <a href="#" title="Apply Now" class="btn btn-white">Download Brochure <span
+                                        class="icon"><i class="n-icon" data-icon="i-herobook"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <div class="bg-wrap">
     <section class="about-section section-gap">
         <div class="container">
@@ -179,34 +240,38 @@
                         <div class="document d-flex">
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -537,9 +602,236 @@
                 </div>
                 <div class="recruiters-slider">
 
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="industry-testimonial section-gap industry-bottom-line">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="main-title text-center">
+                    <span>Industry </span> Testimonials
+                </h2>
+ 
+ 
+                <div class="swiper industry-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/industry.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Ninad Vengurlekar</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>CEO & Co-founder - Utter App</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/industry2.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Sumeet Wilankar</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>AVP, User Experience- Strate...</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/industry3.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Tanay Kumar</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>Co-founder, CEO and Creative...</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/industry.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Ninad Vengurlekar</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>CEO & Co-founder - Utter App</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="slider-btn-wrap">
+                 <div class="industry-button-prev swiper-btn">
+                    <i class="n-icon" data-icon="i-left-arrow"></i>
+                 </div>
+                 <div class="industry-button-next swiper-btn">
+                     <i class="n-icon" data-icon="i-right-arrow"></i>
+                 </div>              
+               </div>
             </div>
         </div>
     </div>
+ 
+</section>
+
+<section class="industry-testimonial student-testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="main-title text-center">
+                    <span>Student </span> Testimonials
+                </h2>
+ 
+                <div class="swiper student-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/student.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>School of Design | Fire Chat Interaction</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/student2.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Saima Khatri</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>An alumnus of School of Design</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/student3.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Prajna Raghuveer</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>An alumnus of School of Design</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
+                                    <div class="thumbnail" bis_skin_checked="1">
+                                        <img class="lazy entered loaded" src="assets/images/student.png"
+                                            data-src="assets/images/about-img.webp" alt="about-img"
+                                            data-ll-status="loaded">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>School of Design | Fire Chat Interaction</h3>
+                                    <div class="industry-btn">
+                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
+                                            data-fancybox="industry-video" title="Watch full Video"
+                                            bis_skin_checked="1">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="slider-btn-wrap">
+                 <div class="student-button-prev swiper-btn">
+                    <i class="n-icon" data-icon="i-left-arrow"></i>
+                 </div>
+                 <div class="student-button-next swiper-btn">
+                     <i class="n-icon" data-icon="i-right-arrow"></i>
+                 </div>              
+               </div>
+            </div>
+        </div>
+    </div>
+ 
 </section>
 
 <section class="glimpse-life-section section-gap double-gap-b">
@@ -555,13 +847,11 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12 col-12">
-               
+
             </div>
         </div>
     </div>
 </section>
-
-
 
 <?php include 'Template/footer-main.php'; ?>
 <?php include 'Template/footer.php'; ?>

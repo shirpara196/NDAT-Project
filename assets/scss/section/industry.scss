@@ -1,0 +1,174 @@
+.main-card {
+    h3 {
+        font-size: $fs-h6;
+        font-weight: $fw-b;
+        color: $black;
+ 
+        @include media-breakpoint-down(sm) {
+            font-size: 16px;
+        }
+    }
+ 
+    p {
+        font-size: $fs-base;
+        font-weight: $fw-r;
+        color: $black;
+    }
+ 
+    .industry-title {
+        margin-top: 40px;
+        margin-bottom: 28px;
+        gap: 5px;
+ 
+        @include media-breakpoint-down(sm) {
+            .industry-btn {
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+ 
+            .industry-testimonial {
+                .main-card {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+ 
+    border-radius: 20px 20px 80px 20px;
+    border: 1px solid #DFE5E0;
+    padding: 30px;
+    background: linear-gradient(126.66deg, #D4D4D4 0%, #FFFFFF 56.91%);
+    box-shadow: 0px 4px 14px 0px #E3E3E3;
+    height: 100%;
+ 
+}
+ 
+.industry-testimonial {
+ 
+    .swiper-slide {
+        height: auto;
+    }
+ 
+    .main-title {
+        margin-bottom: 60px;
+    }
+ 
+    .industry-slider {
+        padding-bottom: 90px;
+        margin: 0 49px;
+    }
+ 
+    .student-slider {
+        padding-bottom: 50px;
+        margin: 0 49px;
+    }
+ 
+    .container {
+        position: relative;
+    }
+ 
+    @include media-breakpoint-up(xxl) {
+        .container {
+            max-width: 1342px;
+        }
+    }
+ 
+    @include media-breakpoint-down(lg) {
+        .main-card {
+            padding: 28px;
+        }
+ 
+    }
+ 
+    .thumbnail-container {
+        padding-bottom: 57%;
+        border-radius: 10px 10px 80px 10px;
+    }
+ 
+    .swiper-btn {
+        position: static;
+        border: 2px solid #D4D4D4;
+        border-radius: 50%;
+        height: 43px;
+        width: 43px;
+        margin-top: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+ 
+ 
+        svg {
+            margin-top: -2px;
+        }
+ 
+ 
+        @include media-breakpoint-down(sm) {
+            height: 30px;
+            width: 30px;
+ 
+            svg {
+                width: 20px;
+                height: 12px;
+            }
+        }
+ 
+    }
+ 
+    .slider-btn-wrap {
+        position: absolute;
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        top: 50%;
+        left: 0;
+        right: 0;
+        padding: 0 15px;
+    }
+ 
+    .industry-button-prev:after,
+    .industry-button-prev:after {
+        content: none !important;
+    }
+ 
+    .student-button-prev:after,
+    .student-button-prev:after {
+        content: none !important;
+    }
+ 
+    @include media-breakpoint-down(sm) {
+        .main-card {
+ 
+            p {
+                font-size: 14px;
+                line-height: normal;
+            }
+ 
+            padding: 15px;
+ 
+            .industry-title {
+                margin-top: 25px;
+                margin-bottom: 15px;
+ 
+            }
+        }
+ 
+    }
+ 
+}
+ 
+.industry-bottom-line {
+    .container {
+        border-bottom: 1px solid $primary;
+    }
+}
+ 
+@include media-breakpoint-down(lg) {
+    .industry-testimonial {
+        .main-title {
+            margin-top: 30px;
+        }
+    }
+}
