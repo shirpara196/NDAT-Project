@@ -27,3 +27,20 @@
 //         aosFunction();
 //     }, 300);
 // });
+$(document).ready(function () {
+    jQuery('.campus-video-modal').on('click', function () {
+        jQuery('.campus-open-videos').removeClass('d-none');
+        jQuery('.campus-open-videos').trigger('play');
+        jQuery('.campus-open-videos').prev().addClass('d-none');
+        jQuery(this).hide();
+    });
+});
+var swiper = new Swiper(".recruiters-slider", {
+    loop: true,
+    autoplay: false,
+    slidesPerView: 1,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});

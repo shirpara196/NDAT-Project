@@ -555,75 +555,12 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12 col-12">
-                <div class="product-gallery">
-                    <!-- Vertical Thumbnails -->
-                    <div class="swiper thumbSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="assets/images/glimpse1.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse2.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse3.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse4.png" /></div>
-                        </div>
-                    </div>
-
-                    <!-- Main Image Slider -->
-                    <div class="swiper mainSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="assets/images/glimpse1.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse2.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse3.png" /></div>
-                            <div class="swiper-slide"><img src="assets/images/glimpse4.png" /></div>
-                        </div>
-                    </div>
-
-                </div>
+               
             </div>
         </div>
     </div>
 </section>
 
-<script>
-    $(document).ready(function () {
-        jQuery('.campus-video-modal').on('click', function () {
-            jQuery('.campus-open-videos').removeClass('d-none');
-            jQuery('.campus-open-videos').trigger('play');
-            jQuery('.campus-open-videos').prev().addClass('d-none');
-            jQuery(this).hide();
-        });
-    });
-        var swiper = new Swiper(".recruiters-slider", {
-            loop: true,
-            autoplay: false,
-            slidesPerView: 1,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-
-
-</script>
-
-<script>
-    $(document).ready(function () {
-        var thumbSwiper = new Swiper(".thumbSwiper", {
-            direction: "vertical",
-            slidesPerView: 4,
-            spaceBetween: 10,
-            freeMode: true,
-            watchSlidesProgress: true,
-        });
-
-        var mainSwiper = new Swiper(".mainSwiper", {
-            direction: "vertical", // make main slider vertical
-            spaceBetween: 10,
-            loop: true,
-            thumbs: {
-                swiper: thumbSwiper,
-            },
-        });
-    });
-</script>
 
 
 <?php include 'Template/footer-main.php'; ?>
