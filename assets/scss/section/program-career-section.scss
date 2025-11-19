@@ -48,7 +48,7 @@
                         font-weight: 700;
                     }
                     &.active {
-                        background-color:$white;
+                        background-color:transparent;
                         color: $primary;
                         border-bottom: 4px solid $primary;
                         span {
@@ -99,6 +99,12 @@
                     .pc-item {
                         padding: 26px 15px 25px;
                         border-radius: 10px 10px 60px 10px;
+                        &::after{
+                            border-radius: 10px 10px 60px 10px;
+                        }
+                        &::before{
+                            border-radius: 10px 10px 60px 10px;
+                        }
                         @include media-breakpoint-down(sm) {
                             padding: 20px 15px;
                             border-radius: 10px 10px 40px 10px;
@@ -122,14 +128,53 @@
 
             .pc-item {
                 padding: 29px 34px 24px;
+                position: relative;
                 border-radius: 20px 20px 80px 20px;
                 border: 1px solid rgba(223, 229, 224, 1);
                 box-shadow: 0px 4px 14px 0px rgba(227, 227, 227, 1);
-                background: linear-gradient(126.66deg, #D4D4D4 0%, $white 56.91%);
-                @include css3-prefix ('transition', 'background 0.5s ease-in-out');
+                
+                @include css3-prefix(transition, 0.5s ease-in-out);
+                &::after{
+                    content: "";
+                    height: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    border-radius: 20px 20px 80px 20px;
+                    background: linear-gradient(126.66deg, #7ECA8F 0%, $white 56.91%);  
+                    opacity: 0;
+                    @include css3-prefix(transition, 0.5s ease-in-out); 
+                }
+                &::before{
+                    content: "";
+                    height: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    border-radius: 20px 20px 80px 20px;
+                    background: linear-gradient(126.66deg, #D4D4D4 0%, $white 56.91%);  
+                    opacity: 1;
+                    @include css3-prefix(transition, 0.5s ease-in-out); 
+                    @include media-breakpoint-down(sm){
+                        border-radius: 10px 10px 40px 10px;
+                    }
+                }
 
                 &:hover {
-                    background: linear-gradient(126.66deg, #7ECA8F 0%, $white 56.91%);
+                    transform: translateY(-10px);
+                    &::after{
+                        opacity: 1;
+                    }
+                    &::before{
+                        opacity: 0;
+                    }
+                    .pc-icon{
+                        transform: rotateY(180deg);
+                    }
                 }
 
                 @include media-breakpoint-down(md) {
@@ -143,6 +188,7 @@
                 .pc-icon {
                     display: inline-block;
                     margin-bottom: 18px;
+                    @include css3-prefix(transition, 0.5s ease-in-out); 
                     @include media-breakpoint-down(md) {
                         margin-bottom: 12px;
                         svg {

@@ -104,6 +104,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  @include media-breakpoint-down(md){
+    font-size: $fs-base - 2px; 
+}
 }
 
 :focus {

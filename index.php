@@ -114,6 +114,7 @@
     </section>
 </div>
 
+<div class="bg-wrap-2">
 <section class="admission-section">
     <div class="container-fluid ps-0">
         <div class="row gx-0">
@@ -176,37 +177,41 @@
                             </div>
                         </div>
                         <h6 class="sm-title">Important Documents</h6>
-                        <div class="document d-flex">
+                        <div class="document d-flex flex-md-nowrap flex-wrap">
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                             <div class="item d-flex flex-grow-1">
                                 <div class="wrap">
-                                <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
-                                    <img src="assets/images/i-pdf.png" alt="pdf">
-                                </a>
-                                <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
+                                    <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <img src="assets/images/i-pdf.png" alt="pdf">
+                                    </a>
+                                    <h6 class="title fw-semibold fs-14 text-center mt-2"><a
+                                            href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -360,6 +365,7 @@
         </div>
     </div>
 </section>
+</div>
 
 <section class="campus-section section-gap double-gap">
     <div class="container">
@@ -372,19 +378,20 @@
                             <div class="thumbnail" bis_skin_checked="1">
                                 <img class="lazy entered loaded" src="assets/images/campus-tour.png"
                                     data-src="assets/images/campus-tour.png" alt="campus-img" data-ll-status="loaded">
+                                    <video autoplay="" controls="" muted=""
+                                        class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
+                                        <source class="embed-responsive-item" src="assets/images/125060-732641221_small.mp4"
+                                            type="video/mp4">
+                                    </video>
                             </div>
+                            <span class="campus-play-btn d-inline-block">
+                                <button class="campus-video-modal" aria-label="play video">
+                                    <i class="n-icon" data-icon="i-playicon"></i>
+                                </button>
+                            </span>
                         </div>
 
-                        <video autoplay="" controls="" muted=""
-                            class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
-                            <source class="embed-responsive-item" src="assets/images/125060-732641221_small.mp4"
-                                type="video/mp4">
-                        </video>
-                        <span class="campus-play-btn">
-                            <button class="campus-video-modal" aria-label="play video">
-                                <i class="n-icon" data-icon="i-playicon"></i>
-                            </button>
-                        </span>
+                      
                     </div>
                 </div>
             </div>
@@ -537,9 +544,9 @@
                 </div>
                 <div class="recruiters-slider">
 
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="glimpse-life-section section-gap double-gap-b">
@@ -555,7 +562,7 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12 col-12">
-               
+
             </div>
         </div>
     </div>
