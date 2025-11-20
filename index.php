@@ -7,28 +7,13 @@
         <div class="swiper hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                        <div class="thumbnail" bis_skin_checked="1">
-                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
-                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
-                        </div>
-                    </div>
+                    <div class="img" style="background: url(assets/images/hero-img.png);"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                        <div class="thumbnail" bis_skin_checked="1">
-                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
-                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
-                        </div>
-                    </div>
+                    <div class="img" style="background: url(assets/images/hero-img.png);"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                        <div class="thumbnail" bis_skin_checked="1">
-                            <img class="lazy entered loaded" src="assets/images/hero-img.png"
-                                data-src="assets/images/hero-img.png" alt="recruiter-img" data-ll-status="loaded">
-                        </div>
-                    </div>
+                    <div class="img" style="background: url(assets/images/hero-img.png);"></div>
                 </div>
 
             </div>
@@ -60,19 +45,17 @@
         </div>
 
     </div>
+    <div class="line-shape">
 
+                <img src="assets/images/hero-shape.png"
+                    data-src="assets/images/about-img.webp" alt="about-img" data-ll-status="loaded">
+
+    </div>
 </section>
 
 
 <div class="bg-wrap">
-    <div class="line-shape">
-        <div class="thumbnail-container object-fit" bis_skin_checked="1">
-            <div class="thumbnail" bis_skin_checked="1">
-                <img class="lazy entered loaded" src="assets/images/hero-shape.png"
-                    data-src="assets/images/about-img.webp" alt="about-img" data-ll-status="loaded">
-            </div>
-        </div>
-    </div>
+ 
     <section class="about-section section-gap">
         <div class="container">
             <div class="row">

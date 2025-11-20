@@ -30,6 +30,10 @@
             width: 320px;
             height: 145px;
         }
+        @include media-breakpoint-down(sm){
+            width: 60%;
+            height: 145px;
+        }
     }
     @include media-breakpoint-up(xxl){
      padding: 193px 0 75px 0 !important;

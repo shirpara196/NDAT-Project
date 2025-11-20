@@ -46,10 +46,8 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     var swiper = new Swiper(".hero-slider", {
-        
-        freeMode: true,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         slidesPerView: 1,
         pagination: {
             el: ".swiper-pagination",
