@@ -50,3 +50,6 @@
     </div>
 </header>
 
+<div class="fixed-apply-btn">
+    <a href="#" class="btn btn-primary" title="Admissions Open 2025">Admissions Open 2025</a>
+</div>

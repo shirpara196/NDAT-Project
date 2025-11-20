@@ -27,6 +27,7 @@
             padding-top: 60px;
             position: relative;
             margin-right: 50px;
+            
             @include media-breakpoint-down(xl) {
                 padding-top: 40px;
             }
@@ -47,7 +48,7 @@
                 background-image: url(../images/campus-bg.png);
                 background-size: contain;
                 background-repeat: no-repeat;
-                background-position: left bottom;
+                background-position: right bottom;
                 width: 100vw;
                 height: 550px;
                 z-index: -1;
@@ -70,7 +71,16 @@
             .thumbnail-container {
                 padding-bottom: 57%;
                 border-radius: 20px;
-
+                
+                img {
+                    @include css3-prefix(transition, 0.5s ease-in-out);
+                }
+                &:hover {
+                    img{
+                    transform: scale(1.05);
+                    }
+                }
+                
                 @include media-breakpoint-down(lg) {
                     padding-bottom: 70%;
                 }
@@ -78,13 +88,38 @@
                 @include media-breakpoint-down(md) {
                     padding-bottom: 60%;
                 }
+
+                &:hover {
+                    .n-icon {
+                        svg {
+                            path {
+                                &:first-child {
+                                    fill: $primary;
+                                    stroke: $primary;
+                                }
+                                &:last-child {
+                                    fill: $white;
+                                    stroke: $white;
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             .campus-play-btn {
                 position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    transform: translate(-50%, -50%);
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                .n-icon {
+                    svg {
+                        path {
+                            @include css3-prefix(transition, 0.3s ease-in);
+                        }
+                    }
+                }
+                
                 button {
                     outline: none;
                     box-shadow: none;
@@ -126,7 +161,12 @@
 
                 .thumbnail-container {
                     padding-bottom: 68%;
-
+                    img {
+                    @include css3-prefix(transition, 0.5s ease-in-out);
+                        &:hover {
+                            transform: scale(1.01);
+                        }
+                    }
                     @include media-breakpoint-down(md) {
                         padding-bottom: 50%;
                     }

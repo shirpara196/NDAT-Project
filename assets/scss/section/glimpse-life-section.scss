@@ -137,8 +137,12 @@
 
                 img {
                     border-radius: 10px 10px 40px 10px;
+                    @include css3-prefix(transition, 0.5s ease-in-out);
+                        &:hover {
+                            transform: scale(1.01);
+                        }
                 }
-
+                
                 @include media-breakpoint-down(md) {
                     padding-bottom: 55%;
                 }
@@ -186,6 +190,10 @@
 
                 img {
                     border-radius: 10px 10px 40px 10px;
+                    @include css3-prefix(transition, 0.3s ease-in-out);
+                        &:hover {
+                            transform: scale(1.01);
+                        }
                 }
             }
         }

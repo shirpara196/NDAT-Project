@@ -100,5 +100,27 @@
     }
 
 }
-
+.fixed-apply-btn {
+    position: fixed;
+    z-index: 11;
+    right: 22px;
+    top: 50%;
+    height: fit-content;
+    transform: translateY(calc(-50% - 125px)) rotate(-90deg);
+    transform-origin: right;
+    a {
+        border-radius: 20px 20px 0 0;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 45px;
+        position: relative;
+        background-color: $tertiary !important;
+        color: $black !important;
+        @include css3-prefix(transition, 0.3s ease-in-out);
+        &:hover {
+            background-color: $secondary !important;
+            color: $white !important;
+        }
+    }
+}
 /* Button E */

@@ -25,6 +25,9 @@
                 svg {
                     width: 30px;
                     height: 30px;
+                    path {
+                        @include css3-prefix(transition, 0.5s ease-in-out);
+                    }
                 }
             }
 
@@ -39,9 +42,62 @@
     border-radius: 20px 20px 80px 20px;
     border: 1px solid #DFE5E0;
     padding: 30px;
-    background: linear-gradient(126.66deg, #D4D4D4 0%, #FFFFFF 56.91%);
+    // background: linear-gradient(126.66deg, #D4D4D4 0%, #FFFFFF 56.91%);
     box-shadow: 0px 4px 14px 0px #E3E3E3;
     height: 100%;
+
+    @include css3-prefix(transition, 0.5s ease-in-out);
+
+    &::after {
+        content: "";
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 20px 20px 80px 20px;
+        background: linear-gradient(126.66deg, #69C17D 0%, #FFFFFF 49.68%);
+        border: 1px solid rgba(126, 202, 143, 0.6);
+        opacity: 0;
+        @include css3-prefix(transition, 0.5s ease-in-out);
+    }
+
+    &::before {
+        content: "";
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 20px 20px 80px 20px;
+        background: linear-gradient(126.66deg, #D4D4D4 0%, $white 56.91%);
+        opacity: 1;
+        @include css3-prefix(transition, 0.5s ease-in-out);
+
+        @include media-breakpoint-down(sm) {
+            border-radius: 10px 10px 40px 10px;
+        }
+    }
+
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
+
+        &::before {
+            opacity: 0;
+        }
+
+        .industry-btn {
+            svg {
+                path {
+                    fill: $primary;
+                }
+            }
+        }
+    }
 
 }
 
@@ -53,9 +109,11 @@
 
     .main-title {
         margin-bottom: 60px;
+
         @include media-breakpoint-down(xl) {
             margin-bottom: 50px;
         }
+
         @include media-breakpoint-down(md) {
             margin-bottom: 30px;
         }
@@ -64,9 +122,11 @@
     .industry-slider {
         padding-bottom: 90px;
         margin: 0 49px;
+
         @include media-breakpoint-down(xl) {
             padding-bottom: 60px;
         }
+
         @include media-breakpoint-down(md) {
             padding-bottom: 40px;
         }
@@ -97,6 +157,13 @@
     .thumbnail-container {
         padding-bottom: 57%;
         border-radius: 10px 10px 80px 10px;
+        img {
+        @include css3-prefix(transition, 0.5s ease-in-out);
+            &:hover {
+                transform: scale(1.01);
+                box-shadow: 0px 4px 34px 0px rgba(126, 202, 143, 0.6);
+            }
+        }
     }
 
     .swiper-btn {
@@ -169,6 +236,16 @@
 
     }
 
+    &.student-testimonial {
+        padding-bottom: 50px;
+        @include media-breakpoint-down(lg) {
+            padding-bottom: 30px;
+        }
+        @include media-breakpoint-down(md) {
+            padding-bottom: 0px;
+        }
+    }
+
 }
 
 .industry-bottom-line {
@@ -176,4 +253,3 @@
         border-bottom: 1px solid $primary;
     }
 }
-
