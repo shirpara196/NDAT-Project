@@ -86,15 +86,3 @@ svgIcon();
 
 /* HTML Example: <i class="n-icon" data-icon="iconname" data-iconwidth="24px" data-iconheight="24px"></i> */
 
-$(".menu-close").on("click", function () {
-    $(".nav-main").removeClass("active");
-    $(".overlay").removeClass("active");
-});
-$(".overlay").on("click", function () {
-    $(".nav-main").removeClass("active");
-    $(".overlay").removeClass("active");
-});
-$(".bar-btn").on("click", function () {
-    $(".overlay").addClass("active");
-    $(".nav-main").addClass("active");
-});

@@ -24,7 +24,7 @@
             <div class="hero-inner">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="hero-left">
+                        <div class="hero-left" data-aos="fade-up">
                             <h2 class="main-title"><span>Build the Future</span> with Human Centered
                                 <span>Design</span>
                             </h2>
@@ -46,31 +46,33 @@
 
     </div>
     <div class="line-shape">
-
-                <img src="assets/images/hero-shape.png"
-                    data-src="assets/images/about-img.webp" alt="about-img" data-ll-status="loaded">
-
+        <div class="marquee">
+            <div class="marquee-inner">
+                <img src="assets/images/hero-shape.png">
+                <img src="assets/images/hero-shape.png">
+            </div>
+        </div>
     </div>
 </section>
 
 
 <div class="bg-wrap">
- 
-    <section class="about-section section-gap">
+
+    <section class="about-section section-gap double-gap-t" id="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="about-wrap d-lg-flex d-block align-items-end">
-                        <div class="img-wrap">
+                        <div class="img-wrap" data-aos="fade-right">
                             <div class="img">
                                 <div class="thumbnail-container object-fit">
                                     <div class="thumbnail">
                                         <img class="lazy" src="assets/images/loader.gif"
-                                            data-src="assets/images/about-img.webp" alt="about-img">
+                                            data-src="assets/images/about-img.webp" alt="img">
                                     </div>
                                     <div class="btn-wrap">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="about-video" class="btn btn-primary"
+                                        <a href="#"
+                                            class="btn btn-primary"
                                             title="Watch full Video">
                                             Watch full Video
                                             <span class="icon"><i class="n-icon" data-icon="i-play"></i></span>
@@ -79,7 +81,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="content">
+                        <div class="content" data-aos="fade-up">
                             <h1 class="main-title">
                                 <span>About</span> Us
                             </h1>
@@ -100,11 +102,11 @@
         </div>
     </section>
 
-    <section class="overview-section section-gap double-gap-b">
+    <section class="overview-section section-gap double-gap-b" id="uceed-score">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="overview-wrap">
+                    <div class="overview-wrap" data-aos="fade-up">
                         <h2 class="main-title"><span>Bachelor of</span> Design</h2>
                         <ul class="box">
                             <li>
@@ -169,11 +171,11 @@
 </div>
 
 <div class="bg-wrap-2">
-    <section class="admission-section">
+    <section class="admission-section" id="admission">
         <div class="container-fluid ps-0">
             <div class="row gx-0">
                 <div class="col-12">
-                    <div class="admission-wrap">
+                    <div class="admission-wrap" data-aos="fade-up">
                         <h2 class="main-title text-center"><span>Admission</span> Process</h2>
                         <div class="top-content">
                             <h6 class="sm-title">Eligibility</h6>
@@ -199,7 +201,7 @@
                                 </li>
                             </ul>
                             <h6 class="sm-title">Steps to Apply</h6>
-                            <div class="steps">
+                            <div class="steps" data-aos="fade-up">
                                 <div class="item">
                                     <span class="step d-block"><span>Step 1</span></span>
                                     <div class="text">
@@ -232,44 +234,44 @@
                                 </div>
                             </div>
                             <h6 class="sm-title">Important Documents</h6>
-                            <div class="document d-flex flex-md-nowrap flex-wrap">
+                            <div class="document d-flex flex-md-nowrap flex-wrap" data-aos="fade-up">
                                 <div class="item d-flex flex-grow-1">
                                     <div class="wrap">
-                                        <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
                                         </a>
                                         <h6 class="title fw-semibold fs-14 text-center mt-2"><a
-                                                href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a>
+                                                href="#">Admission Handout</a>
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="item d-flex flex-grow-1">
                                     <div class="wrap">
-                                        <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
                                         </a>
                                         <h6 class="title fw-semibold fs-14 text-center mt-2"><a
-                                                href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a>
+                                                href="#">Admission Handout</a>
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="item d-flex flex-grow-1">
                                     <div class="wrap">
-                                        <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
                                         </a>
                                         <h6 class="title fw-semibold fs-14 text-center mt-2"><a
-                                                href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a>
+                                                href="#">Admission Handout</a>
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="item d-flex flex-grow-1">
                                     <div class="wrap">
-                                        <a href="assets/pdf/dummy-pdf_2.pdf" target="_blank" class="icon">
+                                        <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
                                         </a>
                                         <h6 class="title fw-semibold fs-14 text-center mt-2"><a
-                                                href="assets/pdf/dummy-pdf_2.pdf" target="_blank">Admission Handout</a>
+                                                href="#">Admission Handout</a>
                                         </h6>
                                     </div>
                                 </div>
@@ -298,7 +300,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="tab-content">
+                        <div class="tab-content" data-aos="fade-up">
                             <div id="program_highlights" class="tab-pane active">
                                 <div class="pc-list program-highlights">
                                     <div class="pc-item">
@@ -426,177 +428,147 @@
     </section>
 </div>
 
-<section class="campus-section section-gap double-gap-t">
+<section class="campus-section section-gap double-gap-t" id="recruiters">
     <div class="container">
         <div class="row gy-5">
             <div class="col-lg-7 col-md-6 col-sm-12 col-12">
-                <div class="campus-tour">
+                <div class="campus-tour" data-aos="fade-right">
                     <h2 class="main-title"><span>Campus</span> Tour</h2>
                     <div class="campus-story">
-                        <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                            <div class="thumbnail" bis_skin_checked="1">
-                                <img class="lazy entered loaded" src="assets/images/campus-tour.png"
-                                    data-src="assets/images/campus-tour.png" alt="campus-img" data-ll-status="loaded">
-                                <video autoplay="" controls="" muted=""
+                        <div class="thumbnail-container object-fit">
+                            <div class="thumbnail">
+                                <img class="lazy" src="assets/images/loader.gif"
+                                    data-src="assets/images/campus-tour.png" alt="campus-img">
+                                <!-- <video autoplay="" controls="" muted=""
                                     class="campus-open-videos embed-responsive embed-responsive-16by9 d-none">
                                     <source class="embed-responsive-item" src="assets/images/125060-732641221_small.mp4"
                                         type="video/mp4">
-                                </video>
+                                </video> -->
                             </div>
-                            <span class="campus-play-btn d-inline-block">
-                                <button class="campus-video-modal" aria-label="play video">
+                            <span class="campus-play-btn d-inline-block play-icon-animate">
+                                <a href="https://www.youtube.com/watch?v=5lKuReWzgDQ&t=3s" data-fancybox="campus-video"
+                                    class="campus-video-modal" aria-label="play video">
                                     <i class="n-icon" data-icon="i-playicon"></i>
-                                </button>
+                                </a>
                             </span>
                         </div>
-
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-12 col-12">
-                <div class="top-recruiters">
+                <div class="top-recruiters" data-aos="fade-left">
                     <h2 class="main-title"><span>Top</span> Recruiters</h2>
                     <div class="recruiters-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="recruiters-card">
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
-                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r1.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
-                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r2.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
-                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r3.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
-                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r4.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
-                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r5.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
-                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r6.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="recruiters-card">
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
-                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r7.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
-                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r8.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
-                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r9.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
-                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r10.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
-                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r11.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
-                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r12.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="recruiters-card">
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter1.png"
-                                                data-src="assets/images/recruiter1.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r13.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter2.png"
-                                                data-src="assets/images/recruiter2.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r14.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter3.png"
-                                                data-src="assets/images/recruiter3.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r15.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter4.png"
-                                                data-src="assets/images/recruiter4.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
-                                        </div>
-                                    </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter5.png"
-                                                data-src="assets/images/recruiter5.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
-                                        </div>
-                                    </div>
-                                    <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                        <div class="thumbnail" bis_skin_checked="1">
-                                            <img class="lazy entered loaded" src="assets/images/recruiter6.png"
-                                                data-src="assets/images/recruiter6.png" alt="recruiter-img"
-                                                data-ll-status="loaded">
+                                    <div class="thumbnail-container">
+                                        <div class="thumbnail">
+                                            <img class="lazy" src="assets/images/loader.gif"
+                                                data-src="assets/images/r16.jpg" alt="recruiter-img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                           
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -611,31 +583,27 @@
 </section>
 
 <section class="industry-testimonial section-gap industry-bottom-line">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-12">
                 <h2 class="main-title text-center">
                     <span>Industry </span> Testimonials
                 </h2>
-
-
                 <div class="swiper industry-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/industry.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>Ninad Vengurlekar</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=VeRQ3qX-uQo&t=56s"
+                                            data-fancybox="industry-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
@@ -645,73 +613,48 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/industry2.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry2.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>Sumeet Wilankar</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=r5S-6iOgmaI"
+                                            data-fancybox="industry-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <p>AVP, User Experience- Strate...</p>
+                                <p>AVP, User Experience- Strategy Barclays Investment Bank</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/industry3.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry3.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>Tanay Kumar</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=ZPhkmZIP1No"
+                                            data-fancybox="industry-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <p>Co-founder, CEO and Creative...</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/industry.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Ninad Vengurlekar</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>CEO & Co-founder - Utter App</p>
+                                <p>Co-founder, CEO and Creative Director
+                                    Barclays Fractal Ink Design Studio Pvt. Ltd</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-btn-wrap">
+                <div class="slider-btn-wrap d-xl-none">
                     <div class="industry-button-prev swiper-btn">
                         <i class="n-icon" data-icon="i-left-arrow"></i>
                     </div>
@@ -726,7 +669,7 @@
 </section>
 
 <section class="industry-testimonial student-testimonial">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-12">
                 <h2 class="main-title text-center">
@@ -737,19 +680,17 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/student.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>School of Design | Fire Chat Interaction</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=Lwr6Pt1Ust0"
+                                            data-fancybox="student-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
@@ -758,19 +699,17 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/student2.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student2.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>Saima Khatri</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=DwK8BDUtZV4"
+                                            data-fancybox="student-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
@@ -780,19 +719,17 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/student3.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student3.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
                                     <h3>Prajna Raghuveer</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=IQiAFOqDqbE"
+                                            data-fancybox="student-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
@@ -802,23 +739,22 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="main-card">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/student.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student4.png"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                                 <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>School of Design | Fire Chat Interaction</h3>
-                                    <div class="industry-btn">
-                                        <a href="https://www.youtube.com/watch?v=J71pgYbHeDc"
-                                            data-fancybox="industry-video" title="Watch full Video"
-                                            bis_skin_checked="1">
+                                    <h3>Himanshu Mantri</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=TYuUfmVjlus"
+                                            data-fancybox="student-video" title="Watch full Video">
                                             <i class="n-icon" data-icon="i-industry-play"></i>
                                         </a>
                                     </div>
                                 </div>
+                                <p>An alumnus of School of Design</p>
                             </div>
                         </div>
                     </div>
@@ -841,7 +777,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12 col-12">
-                <div class="glimpse-left">
+                <div class="glimpse-left" data-aos="fade-right">
                     <h2 class="main-title"><span>A Glimpse into Life at</span> NMIMS School of Design</h2>
                     <p>
                         From hands-on studio sessions and tech-driven experiments to vibrant campus moments, every day
@@ -850,46 +786,131 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12 col-12">
-                <div class="glimpse-main-section">
+                <div class="glimpse-main-section" data-aos="fade-left">
                     <!-- Main Slider -->
                     <div class="swiper glimpseSwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse1.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g1.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse2.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g2.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse3.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g3.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse4.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g4.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g5.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g6.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g7.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g8.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g9.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g10.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g11.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g12.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g13.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g14.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g15.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                          
                         </div>
 
                         <!-- Pagination -->
@@ -900,41 +921,126 @@
                     <div class="swiper glimpseThumb">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse1.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g1.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse2.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g2.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse3.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g3.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="thumbnail-container object-fit" bis_skin_checked="1">
-                                    <div class="thumbnail" bis_skin_checked="1">
-                                        <img class="lazy entered loaded" src="assets/images/glimpse4.png"
-                                            data-src="assets/images/about-img.webp" alt="about-img"
-                                            data-ll-status="loaded">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g4.jpg"
+                                            src="assets/images/loader.gif" alt="img">
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g5.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g6.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g7.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g8.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g9.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g10.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g11.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g12.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g13.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g14.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/g15.jpg"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                    
                         </div>
                     </div>
                 </div>

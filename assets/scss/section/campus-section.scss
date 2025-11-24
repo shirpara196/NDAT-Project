@@ -48,11 +48,14 @@
                 background-image: url(../images/campus-bg.png);
                 background-size: contain;
                 background-repeat: no-repeat;
-                background-position: right bottom;
+                background-position: 88% bottom;
                 width: 100vw;
                 height: 550px;
                 z-index: -1;
                 border-bottom-right-radius: 100px;
+                @include media-breakpoint-down(xxl){
+                    background-position: right bottom;
+                }
                 @include media-breakpoint-down(xl){
                     height: 430px;
                 }
@@ -112,6 +115,10 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
+                @include media-breakpoint-down(lg) {
+                    height: 50px;
+                    width: 50px;
+                }
                 .n-icon {
                     svg {
                         path {
@@ -120,7 +127,7 @@
                     }
                 }
                 
-                button {
+               a {
                     outline: none;
                     box-shadow: none;
                     border: none;
@@ -129,8 +136,8 @@
                     @include media-breakpoint-down(lg) {
                         .n-icon {
                             svg {
-                                height: 50px;
-                                width: 50px;
+                                height: 50px !important;
+                                width: 50px !important;
                             }
                         }
                     }
@@ -161,10 +168,11 @@
 
                 .thumbnail-container {
                     padding-bottom: 68%;
+                    background: transparent !important;
                     img {
                     @include css3-prefix(transition, 0.5s ease-in-out);
                         &:hover {
-                            transform: scale(1.01);
+                            transform: scale(1.05);
                         }
                     }
                     @include media-breakpoint-down(md) {

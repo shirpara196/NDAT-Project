@@ -18,19 +18,16 @@
                                 class="gg-close"></i></button>
                         <ul class="nav-menu">
                             <li>
-                                <a href="#" title="About Us">About Us</a>
+                                <a href="#about-us" title="About Us">About Us</a>
                             </li>
                             <li>
-                                <a href="#" title="UCEED Score Accepted">UCEED Score Accepted</a>
+                                <a href="#uceed-score" title="UCEED Score Accepted">UCEED Score Accepted</a>
                             </li>
                             <li>
-                                <a href="#" title="About Us">About Us</a>
+                                <a href="#admission" title="Admission Process">Admission Process</a>
                             </li>
                             <li>
-                                <a href="#" title="Admission Process">Admission Process</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Recruiters">Recruiters</a>
+                                <a href="#recruiters" title="Recruiters">Recruiters</a>
                             </li>
                         </ul>
                     </nav>

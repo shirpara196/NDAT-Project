@@ -8,13 +8,37 @@
             font-size: 16px;
         }
     }
+    &:hover{
+        .thumbnail-container{
+            img{
+                transform: scale(1.04);
+            }
+        }
+    }
 
     p {
         font-size: $fs-base;
         font-weight: $fw-r;
         color: $black;
     }
-
+    .industry-btn{
+        cursor: pointer;
+        &::after{
+            background: $secondary !important;
+        }
+        &:hover{
+         svg,path{
+            stroke: $primary !important;
+         }
+        }
+        svg{
+            height: 50px;
+            width: 50px;
+            path{
+                @include css3-prefix(transition, 0.5s ease-in-out);
+            }
+        }
+    }
     .industry-title {
         margin-top: 40px;
         margin-bottom: 28px;
@@ -22,12 +46,11 @@
 
         @include media-breakpoint-down(sm) {
             .industry-btn {
+                
                 svg {
                     width: 30px;
                     height: 30px;
-                    path {
-                        @include css3-prefix(transition, 0.5s ease-in-out);
-                    }
+                  
                 }
             }
 
@@ -91,6 +114,11 @@
         }
 
         .industry-btn {
+            
+                &::after{
+                    background: $primary !important;
+                }
+            
             svg {
                 path {
                     fill: $primary;
@@ -160,7 +188,7 @@
         img {
         @include css3-prefix(transition, 0.5s ease-in-out);
             &:hover {
-                transform: scale(1.01);
+         
                 box-shadow: 0px 4px 34px 0px rgba(126, 202, 143, 0.6);
             }
         }
@@ -176,12 +204,25 @@
         align-items: center;
         display: flex;
         justify-content: center;
-
+        @include css3-prefix(transition, 0.5s ease-in-out);
+        &.swiper-button-disabled{
+            opacity: 0.5;
+            cursor: auto;
+        }
 
         svg {
             margin-top: -2px;
+            @include css3-prefix(transition, 0.5s ease-in-out);
+            path{
+                @include css3-prefix(transition, 0.5s ease-in-out);
+            }
         }
-
+        &:hover{
+            border-color: $black !important;
+            svg,path{
+               stroke: $primary !important;
+            }
+        }
 
         @include media-breakpoint-down(sm) {
             height: 30px;

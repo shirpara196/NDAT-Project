@@ -38,6 +38,9 @@
     @include media-breakpoint-up(xxl){
      padding: 193px 0 75px 0 !important;
     }
+    .img-wrap{
+        z-index: 10;
+    }
     .img{
         width: 648px;
         margin-right: -101px;

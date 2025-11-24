@@ -78,21 +78,33 @@ background-position: right 136px;
         padding-bottom: 55px;
         border-bottom: 1px solid $primary;
         @include media-breakpoint-down(md){
-            margin-bottom:40px;
+        margin-bottom:40px;
         padding-bottom:40px;
+        }
+        li{
+            position:relative;
+            &::after{
+             content: "";
+             position: absolute;
+             left: -17px;
+             top: 12px;
+             height: 5px;
+             width: 5px;
+             background-color:$black;
+            }
         }
         ul {
             padding-left: 20px;
-        }
-
-        li {
-            list-style: disc !important;
-
-            &::marker {
-                font-size: 14px;
-
+            li{
+                &::after{
+                    background: transparent;
+                    border: 1px solid $black;
+                }
             }
+            
         }
+
+
     }
 
     .steps {

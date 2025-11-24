@@ -1,5 +1,27 @@
 .header-section {
     background: $white;
+    &.mobile-stick{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 0 10px rgba($black, .1);
+        animation: 1s ease .5s normal both 1 running fadeInDown;
+    }
+    @keyframes fadeInDown {
+        0%{
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+        }
+        100%{
+            opacity: 1;
+            transform: none;    
+        }
+    }
+    
+
 
     .container {
         max-width: 1410px;
@@ -39,8 +61,8 @@
             background-color: rgba($black, .5);
             top: 0;
             right: 0;
-            bottom: 0;
             left: 0;
+            height: 100vh;
 
             &.active {
                 display: block;

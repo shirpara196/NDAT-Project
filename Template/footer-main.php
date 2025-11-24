@@ -1,15 +1,15 @@
 <footer class="footer-section">
-    <div class="section-gap double-gap">
+    <div class="section-gap double-gap" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <div class="quick-links">
                         <h3 class="footer-heading">Quick Links</h3>
                         <ul class="d-flex align-items-center">
-                            <li><a href="#">About Us </a></li>
-                            <li><a href="#">UCEED Score Accepted</a> </li>
-                            <li><a href="#">Admission Process</a></li>
-                            <li><a href="#">Recruiters</a></li>
+                            <li><a href="#about-us">About Us </a></li>
+                            <li><a href="#uceed-score">UCEED Score Accepted</a> </li>
+                            <li><a href="#admission">Admission Process</a></li>
+                            <li><a href="#recruiters">Recruiters</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,15 +33,15 @@
                     <div class="quick-links social-icon">
                         <h3 class="footer-heading">Follow us</h3>
                         <ul class="d-flex align-items-center">
-                            <li><a href="#"><i class="n-icon" data-icon="i-facebook"></i> </a></li>
-                            <li><a href="#"><i class="n-icon" data-icon="i-twitter"></i> </a></li>
-                            <li><a href="#"><i class="n-icon" data-icon="i-instagram"></i> </a></li>
-                            <li><a href="#"><i class="n-icon" data-icon="i-linkdin"></i> </a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/NMIMS.Design" title="Follow Us On Facebook"><i class="n-icon" data-icon="i-facebook"></i> </a></li>
+                            <li><a target="_blank" href="https://x.com/nmims_design/" title="Follow Us On Twitter"><i class="n-icon" data-icon="i-twitter"></i> </a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/nmims_design/" title="Follow Us On Instagram"><i class="n-icon" data-icon="i-instagram"></i> </a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/school/nmims-schoolofdesign" title="Follow Us On Linkdin"><i class="n-icon" data-icon="i-linkdin"></i> </a></li>
 
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5 order-md-2 order-1 ">
+                <div class="col-md-5 order-md-2 order-1">
                     <div class="address">
                         <h3 class="footer-heading">Contact info</h3>
                         <h4 class="sub-footer-title contact-main">Ms. Blanche Dias / Ms. Vidya Thorat</h4>
@@ -55,7 +55,7 @@
                         <div class="d-flex align-items-baseline main-address">
                             <span><i class="n-icon" data-icon="i-email"></i></span>
                             <p>
-                                <a href="mailto:blanche.dias@nmims.edu">blanche.dias@nmims.edu</a> / 
+                                <a href="mailto:blanche.dias@nmims.edu">blanche.dias@nmims.edu</a> /
                                 <a href="mailto:vidya.thorat@nmims.edu">vidya.thorat@nmims.edu</a>
                             </p>
                         </div>
