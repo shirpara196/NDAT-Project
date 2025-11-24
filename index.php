@@ -22,7 +22,7 @@
 
         <div class="container">
             <div class="hero-inner">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="hero-left" data-aos="fade-up">
                             <h2 class="main-title"><span>Build the Future</span> with Human Centered
@@ -100,7 +100,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-6 ">
+                                        <div class="col-md-6 col-12 ">
                                             <div class="models_fieldGroup__C0awJ form-group">
                                                 <input class="models_field__K89L6 input_inputBox__Wf8vH form-control" type="text"
                                                     id="lname" name="LastName" placeholder="Last Name*" maxlength="150"
@@ -118,12 +118,12 @@
                                         </div>
                                         <div class="col-lg-12 col-md-12 ">
                                             <div class="models_fieldGroup__C0awJ ">
-                                                <div class="mobile-input-group">
+                                                <div class="mobile-input-group d-flex form-group">
                                                     <input type="text" id="countryCodeInput"
-                                                        class="country-code-input models_field__K89L6 input_inputBox__Wf8vH"
+                                                        class="country-code-input models_field__K89L6 input_inputBox__Wf8vH form-control"
                                                         value="+91" readonly>
                                                     <input
-                                                        class="models_field__K89L6 input_inputBox__Wf8vH phone-number-input"
+                                                        class="models_field__K89L6 input_inputBox__Wf8vH phone-number-input form-control"
                                                         type="number" id="mobile" name="MobilePhone"
                                                         placeholder="Mobile No.* (10 digits)" maxlength="10"
                                                         pattern="[0-9]{10}" required>
@@ -131,10 +131,10 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-md-12 ">
-                                            <div class="models_OTPButton__osVob item-align position-relative">
+                                            <div class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex form-group">
                                                 <button type="button" id="genarteOTP" class="genarteOTPBtn">Generate
                                                     OTP</button>
-                                                <input type="text" class="otpInput_enquirey_form"
+                                                <input type="text" class="otpInput_enquirey_form form-control"
                                                     id="otpInput_enquirey_form" disabled placeholder="Enter OTP"
                                                     maxlength="6">
                                             </div>
@@ -147,8 +147,8 @@
                                         <div class="col-md-12">
                                             <div class="row g-3">
                                                 <div class="col-md-6 col-12 ">
-                                                    <div class="models_fieldGroup__C0awJ">
-                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH"
+                                                    <div class="models_fieldGroup__C0awJ form-group form-dropdown">
+                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
                                                             id="inputState" name="State" required>
                                                             <option value="">Select State</option>
                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -199,17 +199,17 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-12 ">
-                                                    <div class="models_fieldGroup__C0awJ">
-                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH"
+                                                <div class="col-md-6 col-12 mt-md-3 mt-0">
+                                                    <div class="models_fieldGroup__C0awJ form-group form-dropdown">
+                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
                                                             id="inputDistrict" name="City" required>
-                                                            <option value="">-- select City --</option>
+                                                            <option value="">-- Select City --</option>
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 mt-4" id="applicationFields"
-                                                    style="pointer-events: none; opacity: 0.6;">
-                                                    <div class="models_fieldGroup__C0awJ form-check">
+                                                <div class="col-md-12 mt-0" id="applicationFields"
+                                                    style="pointer-events: none;">
+                                                    <div class="models_fieldGroup__C0awJ form-check form-check-box">
                                                         <input class="form-check-input models_checkInput__Ch2Vx"
                                                             type="checkbox" id="defaultCheck1" name="Consent__c"
                                                             value="true" required>
@@ -221,10 +221,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 text-center">
+                                        <div class="col-md-12 text-center submit-btn">
                                             <button type="submit" id="submitApplicationButton"
-                                                class="btn PopfornBtn models_PopfornBtn__QP7jo disabled"
-                                                disabled>SUBMIT</button>
+                                                class="btn btn-primary PopfornBtn models_PopfornBtn__QP7jo disabled"
+                                                disabled>SUBMIT <span class="icon"><i
+                                    class="n-icon" data-icon="i-msg"></i></span></button>
                                         </div>
                                     </div>
                                 </div>
