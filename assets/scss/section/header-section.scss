@@ -99,6 +99,7 @@
             position: absolute;
             right: 19px;
             top: 26px;
+            display: none;
 
             .gg-close {
                 box-sizing: border-box;
@@ -155,6 +156,9 @@
             @include css3-prefix(transition, 0.3s ease-in-out);
             &.active{
                 right: 0;
+            }
+            .menu-close{
+                display: block;
             }
             .mobile-name {
                 display: block;

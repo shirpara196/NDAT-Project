@@ -6,6 +6,7 @@
     <script src="assets/libraries/lazy/lazyload.min.js"></script>
     <script src="assets/libraries/lazy/lazyload-function.min.js"></script>
     <script src="assets/js/svgicon.js"></script>
+    <script src="assets/js/sales-force.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 

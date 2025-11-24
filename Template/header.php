@@ -1,3 +1,6 @@
+<?php
+session_start(); // Ensure session is started at the very top for OTP and verification flags
+?>
 <!DOCTYPE html>
 <html lang="en">
 
