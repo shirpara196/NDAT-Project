@@ -234,6 +234,7 @@
             font-size: $fs-h6;
             text-align: center;
             margin-bottom: 29px;
+
             @include media-breakpoint-down(lg) {
                 margin-bottom: 20px;
             }
@@ -250,8 +251,16 @@
                 padding-right: 7px;
             }
 
-            &.otpinput-box {
+            .message {
+                color: $secondary;
+                font-size: 14px;
+                line-height: 120%;
+                margin-top: 5px;
+            }
+
+            .otpinput-box {
                 gap: 22px;
+
                 @include media-breakpoint-down(lg) {
                     gap: 17px;
                 }
@@ -268,6 +277,7 @@
                     padding: 5px 17px;
                     width: auto;
                     min-width: fit-content;
+
                     @include media-breakpoint-down(lg) {
                         padding: 5px 10px;
                     }
@@ -276,6 +286,7 @@
 
             &.form-dropdown {
                 position: relative;
+
                 &::after {
                     content: "";
                     display: inline-block;
@@ -290,8 +301,10 @@
                     top: 50%;
                     transform: translateY(-50%);
                 }
+
                 .form-select {
                     padding-right: 25px;
+
                     option {
                         color: $black;
                     }
@@ -327,24 +340,45 @@
             }
         }
 
+        .phone-number-input {
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            &[type=number] {
+                -moz-appearance: textfield;
+            }
+        }
+
         .form-check-box {
             .form-check-input {
-                background: #FFFFFF33;
+
                 border: 1px solid #ffffff05;
                 backdrop-filter: blur(9px);
                 height: 24px;
                 width: 24px;
+                box-shadow: none;
+                outline: none;
+
                 @include media-breakpoint-down(md) {
                     width: 20px;
                     height: 20px;
                 }
+
+                &:not(:checked) {
+                    background: #FFFFFF33;
+                }
             }
+
             .form-check-label {
                 font-size: 12px;
                 line-height: 18px;
                 color: $white;
                 font-weight: 400;
                 margin-left: 18px;
+
                 @include media-breakpoint-down(md) {
                     margin-left: 10px;
                 }
@@ -354,13 +388,19 @@
         .submit-btn {
             margin-top: 30px;
             margin-bottom: -60px;
+
             @include media-breakpoint-down(lg) {
                 margin-bottom: -40px;
             }
+
             .btn {
                 opacity: 1;
                 background-color: $tertiary;
                 color: $black;
+
+                &:hover {
+                    background-color: $white;
+                }
 
                 .n-icon {
                     svg {

@@ -24,7 +24,7 @@
             <div class="hero-inner">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="hero-left" data-aos="fade-up">
+                        <div class="hero-left" data-aos="fade-right">
                             <h2 class="main-title"><span>Build the Future</span> with Human Centered
                                 <span>Design</span>
                             </h2>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="form-wrap">
+                        <div class="form-wrap" data-aos="fade-left">
                             <!--<h2>Begin Your Journey Here</h2>-->
 
                             <!--<form id="mainApplicationForm">-->
@@ -131,18 +131,19 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-md-12 ">
-                                            <div class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex form-group">
+                                            <div class="form-group">
+                                            <div class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex">
                                                 <button type="button" id="genarteOTP" class="genarteOTPBtn">Generate
                                                     OTP</button>
                                                 <input type="text" class="otpInput_enquirey_form form-control"
                                                     id="otpInput_enquirey_form" disabled placeholder="Enter OTP"
                                                     maxlength="6">
-                                            </div>
+                                                </div>
+                                                <div id="feedback" class="message" style="display:none;"></div>
+                                        </div>
                                         </div>
 
-                                        <div class="col-md-12">
-                                            <div id="feedback" class="message" style="display:none;"></div>
-                                        </div>
+                                        
 
                                         <div class="col-md-12">
                                             <div class="row g-3">
