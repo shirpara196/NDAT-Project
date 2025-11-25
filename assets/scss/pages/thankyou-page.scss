@@ -72,6 +72,9 @@
                 border-bottom: none;
                 padding-bottom: 0;
                 margin-bottom: 0;
+                .step{
+                    border-color: $white !important;
+                }
             }
 
             .top-content {

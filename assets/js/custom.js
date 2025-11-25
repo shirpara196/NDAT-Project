@@ -1,31 +1,51 @@
-function aosFunction() {
+/* AOS S */
+$(document).ready(function() {
   AOS.init({
-    // Disable AOS below 1200px width
-    disable: function () {
-      return window.innerWidth < 1200;
-    },
-
-    startEvent: 'DOMContentLoaded',
-    initClassName: 'aos-init',
-    animatedClassName: 'aos-animate',
-    useClassNames: false,
-    disableMutationObserver: false,
-    debounceDelay: 50,
-    throttleDelay: 99,
-    offset: 100,
-    delay: 100,
-    duration: 900,
-    easing: 'ease-in-out-quad',
-    once: false,
-    mirror: false,
-    anchorPlacement: 'top-bottom',
+      duration: 1500,
+      once: false,
+      disable: 'mobile',
+      offset: 0,
+      delay: 10
   });
-}
-$(window).on('load', function () {
-  setTimeout(function () {
-    aosFunction();
-  }, 300);
+
+  $(window).on('load', function (){
+      AOS.refresh();
+      setInterval(function(){
+          AOS.refresh();
+      }, 10);
+  });
+
+  $(window).scroll(function() {
+      AOS.refresh();
+          setInterval(function(){
+          AOS.refresh();
+      }, 10);
+  });
 });
+setInterval(function(){
+  AOS.init();
+}, 10);
+/* AOS End */
+/* Loader js Start */
+$(window).on('load', function() {
+  $('.ac-loader').addClass('ac-loader__up');
+});
+/* Loader js end */
+/* Back to Top Scroll S */
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 140) {
+      $('#back-top').css("display", "flex");
+  } else {
+      $('#back-top').css("display", "none");
+  }
+});
+$('#back-top').click(function () {
+  $('body,html').animate({
+      scrollTop: 0
+  }, 500);
+  return false;
+});
+/* Back to Top Scroll E */
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll >= 80) {
@@ -34,7 +54,13 @@ $(window).scroll(function () {
     $(".header-section").removeClass("mobile-stick");
   }
 });
+window.addEventListener("scroll", function () {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = (scrollTop / docHeight) * 100;
 
+  document.querySelector(".in-line").style.height = progress + "%";
+});
 $(document).ready(function () {
   //     jQuery('.campus-video-modal').on('click', function () {
   //         jQuery('.campus-open-videos').removeClass('d-none');

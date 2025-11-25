@@ -50,3 +50,14 @@
 <div class="fixed-apply-btn">
     <a href="#" class="btn btn-primary" title="Admissions Open 2025">Admissions Open 2025</a>
 </div>
+
+<div class="back-to-top" id="back-top">
+    <span class="line">
+        <span class="in-line"></span>
+    </span>
+    Back To Top
+</div>
+<div class="ac-loader">
+        <div class="ac-loader__container">
+        </div>
+    </div>

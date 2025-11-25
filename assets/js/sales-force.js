@@ -457,7 +457,7 @@ const citiesByState = {
 
           if (response.ok && result.success) {
               
-          parent.window.location.href = "https://ndat.nmims.edu/thankyou.php";
+          parent.window.location.href = "/thankyou.php";
               
               showFeedback(result.message, 'success');
               mainApplicationForm.reset(); // Clear form fields

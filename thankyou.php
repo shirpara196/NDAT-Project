@@ -2,7 +2,7 @@
 <?php include 'Template/header-main.php'; ?>
 
 <section class="thankyou-section section-gap double-gap">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-12">
                 <h2 class="main-title">Thank you for your interest in the NMIMS DAT Programs!</h2>
@@ -14,10 +14,10 @@
                 <div class="admission-section">
                     <div class="row gx-0">
                         <div class="col-12">
-                            <div class="admission-wrap" data-aos="fade-up">
+                            <div class="admission-wrap">
                                 <div class="top-content">
                                     <h6 class="sm-title">Steps to Apply</h6>
-                                    <div class="steps" data-aos="fade-up">
+                                    <div class="steps">
                                         <div class="item">
                                             <span class="step d-block"><span>Step 1</span></span>
                                             <div class="text">
