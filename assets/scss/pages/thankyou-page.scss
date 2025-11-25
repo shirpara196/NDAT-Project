@@ -1,0 +1,91 @@
+.thankyou-section {
+
+    .container {
+        max-width: 1300px;
+    }
+
+    .main-title {
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 5px;
+        line-height: normal;
+        color: $black;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 25px;
+            margin-bottom: 10px;
+            line-height: 35px;
+        }
+    }
+
+    .sub-para {
+        text-align: center;
+        font-size: $fs-lg;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+
+    .btn {
+        text-align: center;
+        margin: 25px auto;
+
+        .n-icon {
+            svg {
+                path {
+                    stroke: $white;
+                }
+            }
+        }
+    }
+
+    .thankyou-bottom {
+        text-align: center;
+        font-size: $fs-lg;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        a {
+            display: inline-block;
+            font-weight: 500;
+            color: $primary;
+            letter-spacing: 0.3px;
+        }
+    }
+
+    .admission-section {
+        &::after {
+            display: none;
+        }
+
+        .admission-wrap {
+            padding: 0;
+            background-color: transparent;
+            width: 100%;
+
+            .steps {
+                border-bottom: none;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+
+            .top-content {
+                margin: 40px 0;
+
+                .sm-title {
+                    text-align: center;
+                    font-size: 25px;
+
+                    @include media-breakpoint-down(lg) {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
