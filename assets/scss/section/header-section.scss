@@ -42,17 +42,17 @@
                 max-width: 310px;
             }
             @include media-breakpoint-down(sm){
-                max-width: 280px;
+                max-width: 235px;
             }
         }
     }
 
     .h-content {
-        gap: 30px;
+        // gap: 30px;
 
-        @include media-breakpoint-down(xl) {
-            gap: 20px;
-        }
+        // @include media-breakpoint-down(xl) {
+        //     gap: 20px;
+        // }
 
         .overlay {
             display: none;

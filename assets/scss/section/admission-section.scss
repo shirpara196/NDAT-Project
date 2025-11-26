@@ -1,17 +1,19 @@
-.bg-wrap-2{
-background: url(../images/admission-program-bg.png);
-background-size: cover;
-background-position: right 136px;
-@include media-breakpoint-down(lg){
-    background-position: right 102px;
-}
+.bg-wrap-2 {
+    background: url(../images/admission-program-bg.png);
+    background-size: cover;
+    background-position: right 136px;
+
+    @include media-breakpoint-down(lg) {
+        background-position: right 102px;
+    }
 
 }
 
 .admission-section {
     position: relative;
     z-index: 1;
-    &::after{
+
+    &::after {
         content: "";
         height: 238px;
         width: 48%;
@@ -25,21 +27,25 @@ background-position: right 136px;
         background-size: cover;
         background-position: right bottom;
         background-repeat: no-repeat;
-        @include media-breakpoint-down(lg){
-        height:180px;
-        top: -80px;
+
+        @include media-breakpoint-down(lg) {
+            height: 180px;
+            top: -80px;
         }
-        @include media-breakpoint-down(md){
+
+        @include media-breakpoint-down(md) {
             width: 60%;
-            height:130px;
+            height: 130px;
             border-radius: 40px 0 0 0;
             top: -65px;
 
         }
-        @include media-breakpoint-down(sm){
+
+        @include media-breakpoint-down(sm) {
             width: 60%;
         }
     }
+
     .main-title {
         margin-bottom: 35px;
     }
@@ -47,7 +53,8 @@ background-position: right 136px;
     .sm-title {
         font-size: $fs-h6;
         margin-bottom: 30px;
-        @include media-breakpoint-down(md){
+
+        @include media-breakpoint-down(md) {
             margin-bottom: 20px;
         }
     }
@@ -57,16 +64,19 @@ background-position: right 136px;
         background: #F0F0F0;
         border-radius: 0 0 80px 0;
         width: calc(100% - 176px);
-        @include media-breakpoint-down(xl){
+
+        @include media-breakpoint-down(xl) {
             padding: 70px 40px;
             width: calc(100% - 80px);
         }
-        @include media-breakpoint-down(md){
+
+        @include media-breakpoint-down(md) {
             width: calc(100% - 50px);
             padding: 40px 30px;
             border-radius: 0 0 40px 0;
         }
-        @include media-breakpoint-down(sm){
+
+        @include media-breakpoint-down(sm) {
             width: calc(100% - 10px);
             padding: 30px 20px;
         }
@@ -77,31 +87,36 @@ background-position: right 136px;
         margin-bottom: 55px;
         padding-bottom: 55px;
         border-bottom: 1px solid $primary;
-        @include media-breakpoint-down(md){
-        margin-bottom:40px;
-        padding-bottom:40px;
+
+        @include media-breakpoint-down(md) {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
         }
-        li{
-            position:relative;
-            &::after{
-             content: "";
-             position: absolute;
-             left: -17px;
-             top: 12px;
-             height: 5px;
-             width: 5px;
-             background-color:$black;
+
+        li {
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: -17px;
+                top: 12px;
+                height: 5px;
+                width: 5px;
+                background-color: $black;
             }
         }
+
         ul {
             padding-left: 20px;
-            li{
-                &::after{
+
+            li {
+                &::after {
                     background: transparent;
                     border: 1px solid $black;
                 }
             }
-            
+
         }
 
 
@@ -113,15 +128,18 @@ background-position: right 136px;
         border-bottom: 1px solid $primary;
         padding-bottom: 62px;
         margin-bottom: 62px;
-        @include media-breakpoint-down(lg){
+
+        @include media-breakpoint-down(lg) {
             grid-template-columns: repeat(3, 1fr);
         }
-        @include media-breakpoint-down(md){
+
+        @include media-breakpoint-down(md) {
             grid-template-columns: repeat(2, 1fr);
             padding-bottom: 40px;
             margin-bottom: 40px;
         }
-        @include media-breakpoint-down(sm){
+
+        @include media-breakpoint-down(sm) {
             grid-template-columns: repeat(1, 1fr);
         }
 
@@ -141,7 +159,8 @@ background-position: right 136px;
                 z-index: -1;
                 border-radius: 5px;
             }
-            &::before{
+
+            &::before {
                 content: "";
                 position: absolute;
                 left: 0;
@@ -152,7 +171,7 @@ background-position: right 136px;
                 background-size: 100% 100%;
                 background-position: center;
                 z-index: 1;
-                
+
             }
         }
 
@@ -167,6 +186,7 @@ background-position: right 136px;
             height: 76px;
             position: relative;
             @include css3-prefix(transition, 0.5s ease-in-out);
+
             span {
                 position: absolute;
                 display: inline-block;
@@ -175,11 +195,13 @@ background-position: right 136px;
                 transform: translateY(-50%);
                 @include css3-prefix(transition, 0.5s ease-in-out);
             }
+
             &:hover {
                 background: $black;
+
                 span {
                     left: calc(100% - 80px);
-                    
+
                 }
             }
         }
@@ -187,24 +209,30 @@ background-position: right 136px;
         .text {
             padding-left: 60px;
             margin-top: 20px;
-            @include media-breakpoint-down(xl){
-                p{
-                    font-size:16px;
+
+            @include media-breakpoint-down(xl) {
+                p {
+                    font-size: 16px;
                 }
             }
         }
     }
-    .document{
+
+    .document {
         margin-top: 35px;
-        gap: 20px;
-        .item{
-            @include media-breakpoint-down(md){
-                width: calc(50% - 20px);
-            }
+        gap: 100px;
+
+        @include media-breakpoint-down(lg) {
+            gap: 50px;
         }
-        .wrap{
-            &:hover{
-                a{
+
+        @include media-breakpoint-down(md) {
+            gap: 25px;
+        }
+
+        .wrap {
+            &:hover {
+                a {
                     color: $secondary;
                 }
             }

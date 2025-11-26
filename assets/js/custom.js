@@ -1,47 +1,47 @@
 /* AOS S */
-$(document).ready(function() {
+$(document).ready(function () {
   AOS.init({
-      duration: 1500,
-      once: false,
-      disable: 'mobile',
-      offset: 0,
-      delay: 10
+    duration: 1500,
+    once: false,
+    disable: 'mobile',
+    offset: 0,
+    delay: 10
   });
 
-  $(window).on('load', function (){
+  $(window).on('load', function () {
+    AOS.refresh();
+    setInterval(function () {
       AOS.refresh();
-      setInterval(function(){
-          AOS.refresh();
-      }, 10);
+    }, 10);
   });
 
-  $(window).scroll(function() {
+  $(window).scroll(function () {
+    AOS.refresh();
+    setInterval(function () {
       AOS.refresh();
-          setInterval(function(){
-          AOS.refresh();
-      }, 10);
+    }, 10);
   });
 });
-setInterval(function(){
+setInterval(function () {
   AOS.init();
 }, 10);
 /* AOS End */
 /* Loader js Start */
-$(window).on('load', function() {
+$(window).on('load', function () {
   $('.ac-loader').addClass('ac-loader__up');
 });
 /* Loader js end */
 /* Back to Top Scroll S */
 $(window).scroll(function () {
   if ($(this).scrollTop() > 140) {
-      $('#back-top').css("display", "flex");
+    $('#back-top').css("display", "flex");
   } else {
-      $('#back-top').css("display", "none");
+    $('#back-top').css("display", "none");
   }
 });
 $('#back-top').click(function () {
   $('body,html').animate({
-      scrollTop: 0
+    scrollTop: 0
   }, 500);
   return false;
 });
@@ -78,6 +78,7 @@ $(document).ready(function () {
     },
   });
 });
+
 $(document).ready(function () {
   var swiper = new Swiper(".hero-slider", {
     loop: true,
@@ -140,7 +141,7 @@ var thumbSwiper = new Swiper(".glimpseThumb", {
   breakpoints: {
     991: {
       direction: "vertical",
-      
+
     },
 
 
@@ -174,4 +175,34 @@ $(".bar-btn").on("click", function () {
   $(".overlay").addClass("active");
   $(".nav-main").addClass("active");
   $('body').css('overflow-y', 'hidden');
+});
+
+var recruitersswiper = new Swiper(".recruiters-mobile-slider", {
+  loop: true,
+  autoplay: false,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".recruiters-button-next",
+    prevEl: ".recruiters-button-prev",
+  },
+});
+
+var programswiper = new Swiper(".program-slider", {
+  loop: true,
+  autoplay: false,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".programs-button-next",
+    prevEl: ".programs-button-prev",
+  },
+});
+
+var careerswiper = new Swiper(".career-slider", {
+  loop: true,
+  autoplay: false,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".career-button-next",
+    prevEl: ".career-button-prev",
+  },
 });

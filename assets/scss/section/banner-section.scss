@@ -126,7 +126,7 @@
     .hero-inner {
         padding: 94px 30px;
         position: relative;
-        z-index: 2;
+        z-index: 9;
         pointer-events: none;
 
         @include media-breakpoint-down(xxl) {
@@ -203,6 +203,10 @@
                             fill: $white !important;
                         }
                     }
+
+                    @include media-breakpoint-down(sm) {
+                        display: none;
+                    }
                 }
             }
         }
@@ -222,7 +226,7 @@
         }
 
         @include media-breakpoint-down(md) {
-            margin-top: 25px;
+            margin-top: 10px;
             padding: 25px;
             width: 100%;
             max-width: 100%;
@@ -347,6 +351,7 @@
                 -webkit-appearance: none;
                 margin: 0;
             }
+
             &[type=number] {
                 -moz-appearance: textfield;
             }
@@ -410,6 +415,20 @@
                     }
                 }
             }
+        }
+
+    }
+
+    .mobile-btn {
+        display: none;
+        margin-top: 50px;
+
+        @include media-breakpoint-down(md) {
+            display: flex;
+            max-width: fit-content;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

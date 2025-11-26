@@ -16,10 +16,11 @@
     }
 
     .campus-tour {
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             padding-bottom: 68px;
         }
-        @media(max-width:420px){
+
+        @media(max-width:420px) {
             padding-bottom: 40px;
         }
 
@@ -27,13 +28,15 @@
             padding-top: 60px;
             position: relative;
             margin-right: 50px;
-            
+
             @include media-breakpoint-down(xl) {
                 padding-top: 40px;
             }
+
             @include media-breakpoint-down(lg) {
                 margin-right: 20px;
             }
+
             @include media-breakpoint-down(md) {
                 margin-right: 0px;
             }
@@ -53,37 +56,43 @@
                 height: 550px;
                 z-index: -1;
                 border-bottom-right-radius: 100px;
-                @include media-breakpoint-down(xxl){
+
+                @include media-breakpoint-down(xxl) {
                     background-position: right bottom;
                 }
-                @include media-breakpoint-down(xl){
+
+                @include media-breakpoint-down(xl) {
                     height: 430px;
                 }
-                @include media-breakpoint-down(lg){
+
+                @include media-breakpoint-down(lg) {
                     height: 400px;
                 }
+
                 @include media-breakpoint-down(md) {
-                   height: 120%;
+                    height: 120%;
                 }
+
                 @include media-breakpoint-down(sm) {
                     height: 120%;
                     right: 50%;
-                 }
+                }
             }
 
             .thumbnail-container {
                 padding-bottom: 57%;
                 border-radius: 20px;
-                
+
                 img {
                     @include css3-prefix(transition, 0.5s ease-in-out);
                 }
+
                 &:hover {
-                    img{
-                    transform: scale(1.05);
+                    img {
+                        transform: scale(1.05);
                     }
                 }
-                
+
                 @include media-breakpoint-down(lg) {
                     padding-bottom: 70%;
                 }
@@ -100,6 +109,7 @@
                                     fill: $primary;
                                     stroke: $primary;
                                 }
+
                                 &:last-child {
                                     fill: $white;
                                     stroke: $white;
@@ -115,10 +125,12 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
+
                 @include media-breakpoint-down(lg) {
                     height: 50px;
                     width: 50px;
                 }
+
                 .n-icon {
                     svg {
                         path {
@@ -126,8 +138,8 @@
                         }
                     }
                 }
-                
-               a {
+
+                a {
                     outline: none;
                     box-shadow: none;
                     border: none;
@@ -169,12 +181,15 @@
                 .thumbnail-container {
                     padding-bottom: 68%;
                     background: transparent !important;
+
                     img {
-                    @include css3-prefix(transition, 0.5s ease-in-out);
+                        @include css3-prefix(transition, 0.5s ease-in-out);
+
                         &:hover {
                             transform: scale(1.05);
                         }
                     }
+
                     @include media-breakpoint-down(md) {
                         padding-bottom: 50%;
                     }
@@ -197,6 +212,95 @@
             .swiper-wrapper {
                 margin-bottom: 25px;
             }
+
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
         }
+
+        .recruiter-mobile {
+            display: none;
+            position: relative;
+            @include media-breakpoint-down(md) {
+                display: block;
+            }
+
+            .recruiters-mobile-slider {
+                margin: 0 49px;
+                .thumbnail-container {
+                    padding-bottom: 68%;
+                    background: transparent !important;
+
+                    @include media-breakpoint-down(md) {
+                        padding-bottom: 50%;
+                    }
+                }
+            }
+
+            .swiper-btn {
+                position: static;
+                border: 2px solid #D4D4D4;
+                border-radius: 50%;
+                height: 43px;
+                width: 43px;
+                margin-top: 0;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                @include css3-prefix(transition, 0.5s ease-in-out);
+
+                &.swiper-button-disabled {
+                    opacity: 0.5;
+                    cursor: auto;
+                }
+
+                svg {
+                    // margin-top: -2px;
+                    @include css3-prefix(transition, 0.5s ease-in-out);
+
+                    path {
+                        @include css3-prefix(transition, 0.5s ease-in-out);
+                    }
+                }
+
+                &:hover {
+                    border-color: $black !important;
+
+                    svg,
+                    path {
+                        stroke: $primary !important;
+                    }
+                }
+
+                @include media-breakpoint-down(sm) {
+                    height: 30px;
+                    width: 30px;
+
+                    svg {
+                        width: 20px;
+                        height: 12px;
+                    }
+                }
+
+            }
+
+            .slider-btn-wrap {
+                position: absolute;
+                width: 100%;
+                height: 43px;
+                display: flex;
+                justify-content: space-between;
+                top: 50%;
+                left: 0;
+                right: 0;
+                padding: 0 15px;
+            }
+
+            .recruiters-button-prev:after,
+            .recruiters-button-prev:after {
+                content: none !important;
+            }
+        }
+
     }
 }
