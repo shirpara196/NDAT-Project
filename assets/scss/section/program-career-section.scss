@@ -146,6 +146,9 @@
                     background: linear-gradient(126.66deg, #7ECA8F 0%, $white 56.91%);  
                     opacity: 0;
                     @include css3-prefix(transition, 0.5s ease-in-out); 
+                    @include media-breakpoint-down(sm){
+                        border-radius: 10px 10px 40px 10px;
+                    }
                 }
                 &::before{
                     content: "";

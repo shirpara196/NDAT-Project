@@ -418,7 +418,6 @@ img[src*="loader.gif"] {
   right: -20px;
   color: $secondary;
   font-weight: $fw-m;
-  // text-shadow: 0 0 5px rgba($color: $primary, $alpha: 0.7);
   transform: rotate(90deg);
   cursor: pointer;
   display: none;
@@ -426,6 +425,9 @@ img[src*="loader.gif"] {
   justify-content: space-between;
   width: 148px;
   text-transform: uppercase;
+  @include media-breakpoint-down(md){
+    right: -40px;
+  }
   .line{
     width: 4px;
     height: 50px;

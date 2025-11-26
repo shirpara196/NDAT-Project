@@ -108,6 +108,9 @@
     height: fit-content;
     transform: translateY(calc(-50% - 125px)) rotate(-90deg);
     transform-origin: right;
+    @include media-breakpoint-down(md){
+        right: 14px;
+    }
     a {
         border-radius: 20px 20px 0 0;
         padding-left: 25px;
@@ -117,6 +120,13 @@
         background-color: $tertiary !important;
         color: $black !important;
         @include css3-prefix(transition, 0.3s ease-in-out);
+        @include media-breakpoint-down(md){
+            height: 30px;
+            font-size:14px;
+        border-radius: 10px 10px 0 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
         &:hover {
             background-color: $secondary !important;
             color: $white !important;
