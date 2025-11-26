@@ -312,69 +312,59 @@ img[src*="loader.gif"] {
 .section-gap {
   position: relative;
   z-index: 1;
-  padding: 75px 0;
+  padding: 50px 0;
 
   @include media-breakpoint-down(xxl) {
-    padding: 60px 0;
+    padding: 40px 0;
   }
   @include media-breakpoint-down(xl) {
-    padding: 50px 0;
-  }
-  @include media-breakpoint-down(lg) {
-    padding: 40px 0;
+    padding: 35px 0;
   }
   @include media-breakpoint-down(md) {
     padding: 30px 0;
   }
 
+
   &.double-gap-t {
-    padding-top: 150px;
+    padding-top: 100px;
 
     @include media-breakpoint-down(xxl) {
-      padding-top:120px;
+      padding-top:80px;
     }
     @include media-breakpoint-down(xl) {
-      padding-top:100px;
-    }
-    @include media-breakpoint-down(lg) {
-      padding-top: 80px;
+      padding-top:70px;
     }
     @include media-breakpoint-down(md) {
-      padding-top:60px;
+      padding-top: 60px;
     }
+ 
   }
 
   &.double-gap-b {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
     @include media-breakpoint-down(xxl) {
-      padding-bottom:120px;
+      padding-bottom:80px;
     }
     @include media-breakpoint-down(xl) {
-      padding-bottom:100px;
-    }
-    @include media-breakpoint-down(lg) {
-      padding-bottom: 80px;
+      padding-bottom:70px;
     }
     @include media-breakpoint-down(md) {
-      padding-bottom:60px;
+      padding-bottom: 60px;
     }
   }
 
   &.double-gap {
-    padding: 150px 0;
+    padding: 100px 0;
 
     @include media-breakpoint-down(xxl) {
-      padding:120px 0;
+      padding:80px 0;
     }
     @include media-breakpoint-down(xl) {
-      padding:100px 0;
-    }
-    @include media-breakpoint-down(lg) {
-      padding: 80px 0;
+      padding:70px 0;
     }
     @include media-breakpoint-down(md) {
-      padding:60px 0;
+      padding: 60px 0;
     }
   }
 }
@@ -427,6 +417,7 @@ img[src*="loader.gif"] {
   text-transform: uppercase;
   @include media-breakpoint-down(md){
     right: -40px;
+    width: 136px;
   }
   .line{
     width: 4px;

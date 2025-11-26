@@ -1,22 +1,22 @@
 .overview-section {
 
     &.double-gap-b {
-        padding-bottom: 224px !important;
+        padding-bottom: 170px !important;
     }
 
     @include media-breakpoint-down(xl) {
         &.double-gap-b {
-            padding-bottom: 180px !important;
+            padding-bottom: 150px !important;
         }
     }
     @include media-breakpoint-down(lg){
         &.double-gap-b {
-            padding-bottom: 150px !important;
+            padding-bottom: 120px !important;
         }
     }
     @include media-breakpoint-down(md){
         &.double-gap-b {
-            padding-bottom: 120px !important;
+            padding-bottom: 100px !important;
         }
     }
 

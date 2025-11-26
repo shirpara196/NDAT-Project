@@ -242,8 +242,8 @@
     <div class="line-shape">
         <div class="marquee">
             <div class="marquee-inner">
-                <img src="assets/images/hero-shape.png">
-                <img src="assets/images/hero-shape.png">
+                <img src="assets/images/hero-shape.jpg">
+                <img src="assets/images/hero-shape.jpg">
             </div>
         </div>
     </div>
@@ -774,196 +774,6 @@
     </div>
 </section>
 
-<section class="industry-testimonial section-gap industry-bottom-line">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="main-title text-center">
-                    <span>Industry </span> Testimonials
-                </h2>
-                <div class="swiper industry-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/industry.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Ninad Vengurlekar</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=VeRQ3qX-uQo&t=56s"
-                                            data-fancybox="industry-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>CEO & Co-founder - Utter App</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/industry2.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Sumeet Wilankar</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=r5S-6iOgmaI"
-                                            data-fancybox="industry-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>AVP, User Experience- Strategy Barclays Investment Bank</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/industry3.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Tanay Kumar</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=ZPhkmZIP1No"
-                                            data-fancybox="industry-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>Co-founder, CEO and Creative Director
-                                    Barclays Fractal Ink Design Studio Pvt. Ltd</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-btn-wrap d-xl-none">
-                    <div class="industry-button-prev swiper-btn">
-                        <i class="n-icon" data-icon="i-left-arrow"></i>
-                    </div>
-                    <div class="industry-button-next swiper-btn">
-                        <i class="n-icon" data-icon="i-right-arrow"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="industry-testimonial student-testimonial">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="main-title text-center">
-                    <span>Student </span> Testimonials
-                </h2>
-
-                <div class="swiper student-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/student.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>School of Design | Fire Chat Interaction</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=Lwr6Pt1Ust0"
-                                            data-fancybox="student-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/student2.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Saima Khatri</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=DwK8BDUtZV4"
-                                            data-fancybox="student-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>An alumnus of School of Design</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/student3.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Prajna Raghuveer</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=IQiAFOqDqbE"
-                                            data-fancybox="student-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>An alumnus of School of Design</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-card">
-                                <div class="thumbnail-container object-fit">
-                                    <div class="thumbnail">
-                                        <img class="lazy" data-src="assets/images/student4.png"
-                                            src="assets/images/loader.gif" alt="img">
-                                    </div>
-                                </div>
-                                <div class="industry-title d-flex align-items-center justify-content-between">
-                                    <h3>Himanshu Mantri</h3>
-                                    <div class="industry-btn play-icon-animate">
-                                        <a href="https://www.youtube.com/watch?v=TYuUfmVjlus"
-                                            data-fancybox="student-video" title="Watch full Video">
-                                            <i class="n-icon" data-icon="i-industry-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <p>An alumnus of School of Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-btn-wrap">
-                    <div class="student-button-prev swiper-btn">
-                        <i class="n-icon" data-icon="i-left-arrow"></i>
-                    </div>
-                    <div class="student-button-next swiper-btn">
-                        <i class="n-icon" data-icon="i-right-arrow"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
 
 <section class="glimpse-life-section section-gap double-gap-b">
     <div class="container">
@@ -1240,6 +1050,198 @@
         </div>
     </div>
 </section>
+
+<section class="industry-testimonial section-gap double-gap-t industry-bottom-line">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="main-title text-center">
+                    <span>Industry </span> Testimonials
+                </h2>
+                <div class="swiper industry-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Ninad Vengurlekar</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=VeRQ3qX-uQo&t=56s"
+                                            data-fancybox="industry-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>CEO & Co-founder - Utter App</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry2.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Sumeet Wilankar</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=r5S-6iOgmaI"
+                                            data-fancybox="industry-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>AVP, User Experience- Strategy Barclays Investment Bank</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/industry3.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Tanay Kumar</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=ZPhkmZIP1No"
+                                            data-fancybox="industry-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>Co-founder, CEO and Creative Director
+                                    Barclays Fractal Ink Design Studio Pvt. Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn-wrap d-xl-none">
+                    <div class="industry-button-prev swiper-btn">
+                        <i class="n-icon" data-icon="i-left-arrow"></i>
+                    </div>
+                    <div class="industry-button-next swiper-btn">
+                        <i class="n-icon" data-icon="i-right-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="industry-testimonial student-testimonial">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="main-title text-center">
+                    <span>Student </span> Testimonials
+                </h2>
+
+                <div class="swiper student-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>School of Design | Fire Chat Interaction</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=Lwr6Pt1Ust0"
+                                            data-fancybox="student-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student2.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Saima Khatri</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=DwK8BDUtZV4"
+                                            data-fancybox="student-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>An alumnus of School of Design</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student3.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Prajna Raghuveer</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=IQiAFOqDqbE"
+                                            data-fancybox="student-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>An alumnus of School of Design</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main-card">
+                                <div class="thumbnail-container object-fit">
+                                    <div class="thumbnail">
+                                        <img class="lazy" data-src="assets/images/student4.png"
+                                            src="assets/images/loader.gif" alt="img">
+                                    </div>
+                                </div>
+                                <div class="industry-title d-flex align-items-center justify-content-between">
+                                    <h3>Himanshu Mantri</h3>
+                                    <div class="industry-btn play-icon-animate">
+                                        <a href="https://www.youtube.com/watch?v=TYuUfmVjlus"
+                                            data-fancybox="student-video" title="Watch full Video">
+                                            <i class="n-icon" data-icon="i-industry-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p>An alumnus of School of Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn-wrap">
+                    <div class="student-button-prev swiper-btn">
+                        <i class="n-icon" data-icon="i-left-arrow"></i>
+                    </div>
+                    <div class="student-button-next swiper-btn">
+                        <i class="n-icon" data-icon="i-right-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 
 <?php include 'Template/footer-main.php'; ?>
 <?php include 'Template/footer.php'; ?>
