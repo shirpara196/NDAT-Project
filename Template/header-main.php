@@ -1,13 +1,13 @@
 <header class="header-section">
     <div class="container">
         <div class="row">
-            <div class="col-12 py-3 d-sm-flex flex-column flex-sm-row align-items-center gap-4">
+            <div class="col-12 py-3 d-flex flex-row align-items-center gap-4">
                 <div class="logo text-sm-start text-center">
                     <a href="#" class="d-inline-block" title="NMIMS">
                         <img src="assets/images/h-logo.svg" alt="logo">
                     </a>
                 </div>
-                <div class="h-content d-flex justify-content-sm-end justify-content-center flex-grow-1">
+                <div class="h-content d-flex justify-content-end flex-grow-1">
 
                     <nav class="nav-main align-items-center">
                         <div class="mobile-name">
@@ -34,8 +34,8 @@
                     <div class="overlay"></div>
 
                     <div class="btn-wrap d-flex gap-3">
-                        <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
-                                    class="n-icon" data-icon="i-msg"></i></span></a>
+                        <!-- <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
+                                    class="n-icon" data-icon="i-msg"></i></span></a> -->
                         <button class="btn bar-btn">
                             <i class="n-icon" data-icon="i-bar"></i>
                         </button>            

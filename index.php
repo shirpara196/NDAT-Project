@@ -33,8 +33,8 @@
                                 where innovation meets empathy!
                             </p>
                             <div class="hero-btn">
-                                <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
-                                            class="n-icon" data-icon="i-msg"></i></span></a>
+                                <!-- <a href="#" title="Apply Now" class="btn btn-primary">Apply Now <span class="icon"><i
+                                            class="n-icon" data-icon="i-msg"></i></span></a> -->
                                 <a href="#" title="Download Brochure" class="btn btn-white">Download Brochure <span
                                         class="icon"><i class="n-icon" data-icon="i-herobook"></i></span></a>
                             </div>
@@ -94,24 +94,26 @@
                                     <div class="row g models_formCont__g0yzh">
                                         <div class="col-md-6 col-12">
                                             <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control" type="text"
-                                                    id="fname" name="FirstName" placeholder="First Name*"
+                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
+                                                    type="text" id="fname" name="FirstName" placeholder="First Name*"
                                                     maxlength="150" pattern="(?=^.{2,25}$)(?![.\n])(?=.*[a-zA-Z]).*$"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12 ">
                                             <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control" type="text"
-                                                    id="lname" name="LastName" placeholder="Last Name*" maxlength="150"
-                                                    pattern="(?=^.{2,25}$)(?![.\n])(?=.*[a-zA-Z]).*$" required>
+                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
+                                                    type="text" id="lname" name="LastName" placeholder="Last Name*"
+                                                    maxlength="150" pattern="(?=^.{2,25}$)(?![.\n])(?=.*[a-zA-Z]).*$"
+                                                    required>
                                             </div>
                                         </div>
 
                                         <div class="col-md-12">
                                             <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control" type="email"
-                                                    id="email" name="Email" placeholder="Email ID*" maxlength="150"
+                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
+                                                    type="email" id="email" name="Email" placeholder="Email ID*"
+                                                    maxlength="150"
                                                     pattern="[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+"
                                                     required>
                                             </div>
@@ -132,24 +134,26 @@
                                         </div>
                                         <div class="col-lg-12 col-md-12 ">
                                             <div class="form-group">
-                                            <div class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex">
-                                                <button type="button" id="genarteOTP" class="genarteOTPBtn">Generate
-                                                    OTP</button>
-                                                <input type="text" class="otpInput_enquirey_form form-control"
-                                                    id="otpInput_enquirey_form" disabled placeholder="Enter OTP"
-                                                    maxlength="6">
+                                                <div
+                                                    class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex">
+                                                    <button type="button" id="genarteOTP" class="genarteOTPBtn">Generate
+                                                        OTP</button>
+                                                    <input type="text" class="otpInput_enquirey_form form-control"
+                                                        id="otpInput_enquirey_form" disabled placeholder="Enter OTP"
+                                                        maxlength="6">
                                                 </div>
                                                 <div id="feedback" class="message" style="display:none;"></div>
-                                        </div>
+                                            </div>
                                         </div>
 
-                                        
+
 
                                         <div class="col-md-12">
                                             <div class="row g-3">
                                                 <div class="col-md-6 col-12 ">
                                                     <div class="models_fieldGroup__C0awJ form-group form-dropdown">
-                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
+                                                        <select
+                                                            class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
                                                             id="inputState" name="State" required>
                                                             <option value="">Select State</option>
                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -202,7 +206,8 @@
                                                 </div>
                                                 <div class="col-md-6 col-12 mt-md-3 mt-0">
                                                     <div class="models_fieldGroup__C0awJ form-group form-dropdown">
-                                                        <select class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
+                                                        <select
+                                                            class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
                                                             id="inputDistrict" name="City" required>
                                                             <option value="">-- Select City --</option>
                                                         </select>
@@ -225,15 +230,19 @@
                                         <div class="col-md-12 text-center submit-btn">
                                             <button type="submit" id="submitApplicationButton"
                                                 class="btn btn-primary PopfornBtn models_PopfornBtn__QP7jo disabled"
-                                                disabled>SUBMIT <span class="icon"><i
-                                    class="n-icon" data-icon="i-msg"></i></span></button>
+                                                disabled>SUBMIT <span class="icon"><i class="n-icon"
+                                                        data-icon="i-msg"></i></span></button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
-
                         </div>
+
                     </div>
+                </div>
+                <div class="hero-btn">
+                    <a href="#" title="Download Brochure" class="btn btn-white mobile-btn">Download Brochure <span
+                            class="icon"><i class="n-icon" data-icon="i-herobook"></i></span></a>
                 </div>
             </div>
         </div>
@@ -426,8 +435,8 @@
                                 </div>
                             </div>
                             <h6 class="sm-title">Important Documents</h6>
-                            <div class="document d-flex flex-md-nowrap flex-wrap" data-aos="fade-up">
-                                <div class="item d-flex flex-grow-1">
+                            <div class="document d-flex" data-aos="fade-up">
+                                <div class="item d-flex">
                                     <div class="wrap">
                                         <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
@@ -437,7 +446,7 @@
                                         </h6>
                                     </div>
                                 </div>
-                                <div class="item d-flex flex-grow-1">
+                                <div class="item d-flex">
                                     <div class="wrap">
                                         <a href="#" class="icon">
                                             <img src="assets/images/i-pdf.png" alt="pdf">
@@ -447,26 +456,7 @@
                                         </h6>
                                     </div>
                                 </div>
-                                <div class="item d-flex flex-grow-1">
-                                    <div class="wrap">
-                                        <a href="#" class="icon">
-                                            <img src="assets/images/i-pdf.png" alt="pdf">
-                                        </a>
-                                        <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="#">Admission
-                                                Handout</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                                <div class="item d-flex flex-grow-1">
-                                    <div class="wrap">
-                                        <a href="#" class="icon">
-                                            <img src="assets/images/i-pdf.png" alt="pdf">
-                                        </a>
-                                        <h6 class="title fw-semibold fs-14 text-center mt-2"><a href="#">Admission
-                                                Handout</a>
-                                        </h6>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -569,6 +559,120 @@
                                     </div>
 
                                 </div>
+
+                                <div class="pc-slider">
+                                    <div class="swiper program-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-school"></i>
+                                                    <p class="pc-para">
+                                                        Ranked 4th Best Design School by Career 360
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-cap"></i>
+                                                    <p class="pc-para">
+                                                        One-of-a-kind Undergraduate Design Program in India
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-cup"></i>
+                                                    <p class="pc-para">
+                                                        10+ Awards & 5 Finalists at National & International forums
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-free-network"></i>
+                                                    <p class="pc-para">
+                                                        Strong Alumni Network across industries
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-network"></i>
+                                                    <p class="pc-para">
+                                                        100% Placement for three consecutive years
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-users"></i>
+                                                    <p class="pc-para">
+                                                        5-Month Paid Internship with leading organizations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-book"></i>
+                                                    <p class="pc-para">
+                                                        Small Batch Size for personalized mentorship
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-heart"></i>
+                                                    <p class="pc-para">
+                                                        Immersive NGO Projects for real-world exposure
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-global"></i>
+                                                    <p class="pc-para">
+                                                        Hands-on Learning through studios & labs
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-strem"></i>
+                                                    <p class="pc-para">
+                                                        Entrepreneurial Mentorship to nurture future founders
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-chalkboard"></i>
+                                                    <p class="pc-para">
+                                                        Expert Faculty from academia and industry
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-bookopen"></i>
+                                                    <p class="pc-para">
+                                                        26+ Research Papers published in international journals &
+                                                        conferences
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-btn-wrap d-md-none">
+                                        <div class="programs-button-prev swiper-btn">
+                                            <i class="n-icon" data-icon="i-left-arrow"></i>
+                                        </div>
+                                        <div class="programs-button-next swiper-btn">
+                                            <i class="n-icon" data-icon="i-right-arrow"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div id="career_opportunities" class="tab-pane fade">
                                 <p class="pc-title">Graduates of the B.Des. (Humanising Technology) can look forward to
@@ -609,6 +713,70 @@
                                         <p class="pc-para">
                                             Graphic Designer
                                         </p>
+                                    </div>
+                                </div>
+                                <div class="pc-slider">
+                                    <div class="swiper career-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-idesigner"></i>
+                                                    <p class="pc-para">
+                                                        Interaction Designer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-dresearcher"></i>
+                                                    <p class="pc-para">
+                                                        Design Researcher
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-datavisual"></i>
+                                                    <p class="pc-para">
+                                                        Data Visualizer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-uiux"></i>
+                                                    <p class="pc-para">
+                                                        UI & UX Designer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-edesigner"></i>
+                                                    <p class="pc-para">
+                                                        Experience Designer Emerging Technology
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="pc-item">
+                                                    <i class="n-icon pc-icon" data-icon="i-graphicdesign"></i>
+                                                    <p class="pc-para">
+                                                        Graphic Designer
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-btn-wrap d-md-none">
+                                        <div class="career-button-prev swiper-btn">
+                                            <i class="n-icon" data-icon="i-left-arrow"></i>
+                                        </div>
+                                        <div class="career-button-next swiper-btn">
+                                            <i class="n-icon" data-icon="i-right-arrow"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -764,6 +932,182 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
+
+                    <div class="recruiter-mobile">
+                        <div class="swiper recruiters-mobile-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r1.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r2.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r3.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r4.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r5.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r6.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r7.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r8.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r9.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r10.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r11.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r12.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r13.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r14.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r15.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recruiters-card">
+                                        <div class="thumbnail-container">
+                                            <div class="thumbnail">
+                                                <img class="lazy" src="assets/images/loader.gif"
+                                                    data-src="assets/images/r16.jpg" alt="recruiter-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-btn-wrap">
+                            <div class="recruiters-button-prev swiper-btn">
+                                <i class="n-icon" data-icon="i-left-arrow"></i>
+                            </div>
+                            <div class="recruiters-button-next swiper-btn">
+                                <i class="n-icon" data-icon="i-right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="recruiters-slider">
 
