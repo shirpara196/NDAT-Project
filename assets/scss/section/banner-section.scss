@@ -137,9 +137,6 @@
             padding: 60px 20px;
         }
 
-        @include media-breakpoint-down(sm) {
-            padding: 50px 20px;
-        }
 
 
         .hero-left {
@@ -204,15 +201,37 @@
                         }
                     }
 
-                    @include media-breakpoint-down(md) {
-                        display: none;
-                    }
+                    // @include media-breakpoint-down(md) {
+                    //     display: none;
+                    // }
                 }
             }
         }
     }
 
-    .form-wrap {
+   
+
+    .mobile-btn {
+        display: none;
+        margin-top: 50px;
+        pointer-events: auto;
+
+        @include media-breakpoint-down(md) {
+            display: flex;
+            max-width: fit-content;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+
+.form-modal,.hero-section{
+    .modal-content{
+        border-radius: 21px;
+    }
+     .form-wrap {
         pointer-events: auto;
         max-width: 418px;
         margin: auto;
@@ -418,17 +437,45 @@
         }
 
     }
-
-    .mobile-btn {
-        display: none;
-        margin-top: 50px;
-
-        @include media-breakpoint-down(md) {
-            display: flex;
-            max-width: fit-content;
-            width: auto;
-            margin-left: auto;
-            margin-right: auto;
+}
+.form-modal{
+    background: rgba($white, 0.5);
+    .btn-close{
+        background-color: $white;
+        background-size: 13px;
+        opacity: 1;
+        z-index: 5;
+        border-radius: 50%;
+        right: 10px;
+        top: 10px;
+    }
+    .modal-content{
+          border: none !important;
+    }
+    .form-wrap{
+        max-width: 100%;
+        border: none !important;
+        margin: 0 !important;
+        background-image: url(../images/hero-img.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+        position: relative;
+        border: none !important;
+        #mainApplicationForm{
+            position: relative;
+            z-index: 2;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 21px;
+            background: rgba($black, 0.8);
+            z-index:0;
         }
     }
 }

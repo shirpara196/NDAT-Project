@@ -6,10 +6,10 @@
                     <div class="quick-links">
                         <h3 class="footer-heading">Quick Links</h3>
                         <ul class="d-flex align-items-center">
-                            <li><a href="#about-us">About Us </a></li>
-                            <li><a href="#uceed-score">UCEED Score Accepted</a> </li>
-                            <li><a href="#admission">Admission Process</a></li>
-                            <li><a href="#recruiters">Recruiters</a></li>
+                            <li><a href="#about-us" title="About Us">About Us </a></li>
+                            <li><a href="#uceed-score" title="Program Details">Program Details</a> </li>
+                            <li><a href="#admission" title="Admission Process">Admission Process</a></li>
+                            <li><a href="#recruiters" title="Recruiters">Recruiters</a></li>
                         </ul>
                     </div>
                 </div>

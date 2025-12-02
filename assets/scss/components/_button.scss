@@ -117,8 +117,7 @@
         padding-right: 25px;
         height: 45px;
         position: relative;
-        background-color: $tertiary !important;
-        color: $black !important;
+        
         @include css3-prefix(transition, 0.3s ease-in-out);
         @include media-breakpoint-down(md){
             height: 30px;
@@ -126,10 +125,20 @@
         border-radius: 10px 10px 0 0;
         padding-left: 15px;
         padding-right: 15px;
+        animation: bgChange 2s infinite;
+@keyframes bgChange {
+  0%   { background-color: $tertiary; color: $black;}
+  50%  { background-color: $secondary; color: $white; }
+  100% { background-color: $tertiary; color: $black;}
+}
         }
+        @include media-breakpoint-up(xl){
+            background-color: $tertiary !important;
+            color: $black !important;
         &:hover {
             background-color: $secondary !important;
             color: $white !important;
+        }
         }
     }
 }

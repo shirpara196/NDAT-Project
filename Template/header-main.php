@@ -21,7 +21,7 @@
                                 <a href="#about-us" title="About Us">About Us</a>
                             </li>
                             <li>
-                                <a href="#uceed-score" title="UCEED Score Accepted">UCEED Score Accepted</a>
+                                <a href="#uceed-score" title="Program Details">Program Details</a>
                             </li>
                             <li>
                                 <a href="#admission" title="Admission Process">Admission Process</a>
@@ -47,8 +47,11 @@
     </div>
 </header>
 
-<div class="fixed-apply-btn">
-    <a href="#" class="btn btn-primary" title="Admissions Open 2025">Admissions Open 2025</a>
+<div class="fixed-apply-btn d-md-block d-none">
+    <a href="#" class="btn btn-primary" title="Admissions Open 2025">Admissions Open 2026</a>
+</div>
+<div class="fixed-apply-btn d-md-none d-block">
+    <a href="#" class="btn btn-primary" title="Admissions Open 2025" data-bs-toggle="modal" data-bs-target="#form-modal">Admissions Open 2026</a>
 </div>
 
 <div class="back-to-top" id="back-top">
@@ -60,4 +63,4 @@
 <div class="ac-loader">
         <div class="ac-loader__container">
         </div>
-    </div>
+</div>

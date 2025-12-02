@@ -179,7 +179,7 @@ $(".bar-btn").on("click", function () {
 
 var recruitersswiper = new Swiper(".recruiters-mobile-slider", {
   loop: true,
-  autoplay: false,
+  autoplay: true,
   slidesPerView: 1,
   navigation: {
     nextEl: ".recruiters-button-next",
@@ -189,7 +189,7 @@ var recruitersswiper = new Swiper(".recruiters-mobile-slider", {
 
 var programswiper = new Swiper(".program-slider", {
   loop: true,
-  autoplay: false,
+    autoplay: true,
   slidesPerView: 1,
   navigation: {
     nextEl: ".programs-button-next",
@@ -199,7 +199,7 @@ var programswiper = new Swiper(".program-slider", {
 
 var careerswiper = new Swiper(".career-slider", {
   loop: true,
-  autoplay: false,
+    autoplay: true,
   slidesPerView: 1,
   navigation: {
     nextEl: ".career-button-next",

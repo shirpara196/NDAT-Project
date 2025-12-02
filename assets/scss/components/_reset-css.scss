@@ -416,8 +416,7 @@ img[src*="loader.gif"] {
   width: 148px;
   text-transform: uppercase;
   @include media-breakpoint-down(md){
-    right: -40px;
-    width: 136px;
+    display: none !important;
   }
   .line{
     width: 4px;
