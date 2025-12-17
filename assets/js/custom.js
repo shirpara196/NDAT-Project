@@ -26,11 +26,7 @@ setInterval(function () {
   AOS.init();
 }, 10);
 /* AOS End */
-/* Loader js Start */
-$(window).on('load', function () {
-  $('.ac-loader').addClass('ac-loader__up');
-});
-/* Loader js end */
+
 /* Back to Top Scroll S */
 $(window).scroll(function () {
   if ($(this).scrollTop() > 140) {
@@ -46,6 +42,29 @@ $('#back-top').click(function () {
   return false;
 });
 /* Back to Top Scroll E */
+
+document.addEventListener("DOMContentLoaded", function () {
+    const element = document.querySelector(".move-form"); // div you want to move
+    const targetMobile = document.querySelector(".modal-form-move"); // where to move on mobile
+    const targetDesktop = document.querySelector(".move-form-wrap"); // original parent
+
+    function handleDivMove() {
+        if (window.innerWidth <= 767) {
+            if (!targetMobile.contains(element)) {
+                targetMobile.appendChild(element);
+            }
+        } else {
+            if (!targetDesktop.contains(element)) {
+                targetDesktop.appendChild(element);
+            }
+        }
+    }
+
+    handleDivMove(); // On load
+    window.addEventListener("resize", handleDivMove); // On resize
+});
+
+
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll >= 80) {
@@ -61,6 +80,7 @@ window.addEventListener("scroll", function () {
 
   document.querySelector(".in-line").style.height = progress + "%";
 });
+
 $(document).ready(function () {
   //     jQuery('.campus-video-modal').on('click', function () {
   //         jQuery('.campus-open-videos').removeClass('d-none');
@@ -143,11 +163,9 @@ var thumbSwiper = new Swiper(".glimpseThumb", {
       direction: "vertical",
 
     },
-
-
   }
-
 });
+
 
 var mainSwiper = new Swiper(".glimpseSwiper", {
   spaceBetween: 10,

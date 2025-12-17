@@ -40,8 +40,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-md-block d-none">
-                        <div class="form-wrap" data-aos="fade-left">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-md-block d-none move-form-wrap">
+                        <div class="form-wrap move-form" data-aos="fade-left">
                             <!--<h2>Begin Your Journey Here</h2>-->
 
                             <!--<form id="mainApplicationForm">-->
@@ -258,209 +258,15 @@
     </div>
 </section>
 <div class="modal form-modal fade d-md-none" tabindex="-1" id="form-modal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content position-relative">
-        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
-        
-      <div class="form-wrap" data-aos="fade-left">
-                            <!--<h2>Begin Your Journey Here</h2>-->
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content position-relative">
+            <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            <div class="modal-form-move">
 
-                            <!--<form id="mainApplicationForm">-->
-
-
-                            <form id="mainApplicationForm" action="api.php?utm=" method="POST"> <input type="hidden"
-                                    name="oid" value="00DO300000Ep5FK">
-                                <input type="hidden" name="oid" value="00DO300000Ep5FK">
-                                <input type="hidden" name="retURL" value="https://www.salesforce.com/thankyou">
-
-                                <div class="formDiv models_formDiv__xNk0h">
-
-
-                                    <h6 class="form-title">Begin Your Journey Here</h6>
-
-                                    <input type="hidden" id="UTM_Source__c" name="UTM_Source__c"
-                                        value="<?php echo isset($_GET['utm_source']) ? htmlspecialchars(@$_GET['utm_source']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Medium__c" name="UTM_Medium__c"
-                                        value="<?php echo isset($_GET['utm_medium']) ? htmlspecialchars($_GET['utm_medium']) : ''; ?>" />
-                                    <input type="hidden" id="UTM_Campaign_Name__c" name="UTM_Campaign_Name__c"
-                                        value="<?php echo isset($_GET['utm_campaign']) ? htmlspecialchars(@$_GET['utm_campaign']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Keyword__c" name="UTM_Keyword__c"
-                                        value="<?php echo isset($_GET['utm_keyword']) ? htmlspecialchars(@$_GET['utm_keyword']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Ad_Content__c" name="UTM_Ad_Content__c"
-                                        value="<?php echo isset($_GET['utm_content']) ? htmlspecialchars(@$_GET['utm_content']): ''; ?>" />
-                                    <input type="hidden" id="GCLID__c" name="GCLID__c"
-                                        value="<?php echo isset($_GET['gclid']) ?  htmlspecialchars(@$_GET['gclid']): ''; ?>" />
-                                    <input type="hidden" id="Campaign_ID__c" name="Campaign_ID__c"
-                                        value="<?php echo isset($_GET['utm_campaignid']) ? htmlspecialchars(@$_GET['utm_campaignid']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Ad_group_ID__c" name="UTM_Ad_group_ID__c"
-                                        value="<?php echo isset($_GET['utm_adgroupid']) ? htmlspecialchars(@$_GET['utm_adgroupid']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Ad_group_name__c" name="UTM_Ad_group_name__c"
-                                        value="<?php echo isset($_GET['utm_adgroup']) ? htmlspecialchars(@$_GET['utm_adgroup']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Creative__c" name="UTM_Creative__c"
-                                        value="<?php echo isset($_GET['creative']) ? htmlspecialchars(@$_GET['creative']): ''; ?>" />
-                                    <input type="hidden" id="Placement__c" name="Placement__c"
-                                        value="<?php echo isset($_GET['utm_placement']) ? htmlspecialchars(@$_GET['utm_placement']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Network__c" name="UTM_Network__c"
-                                        value="<?php echo  isset($_GET['utm_network']) ? htmlspecialchars(@$_GET['utm_network']): ''; ?>" />
-                                    <input type="hidden" id="UTM_Device__c" name="UTM_Device__c"
-                                        value="<?php echo  isset($_GET['utm_device']) ? htmlspecialchars(@$_GET['utm_device']): ''; ?>" />
-                                    <input type="hidden" id="Creative_ID_Ad_ID__c" name="Creative_ID_Ad_ID__c"
-                                        value="<?php echo  isset($_GET['utm_creativeid']) ? htmlspecialchars(@$_GET['utm_creativeid']): ''; ?>" />
-                                    <input type="hidden" id="Match_Type__c" name="Match_Type__c"
-                                        value="<?php echo  isset($_GET['utm_matchtype']) ? htmlspecialchars(@$_GET['utm_matchtype']): ''; ?>" />
-
-
-
-
-                                    <div class="row g models_formCont__g0yzh">
-                                        <div class="col-md-6 col-12">
-                                            <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
-                                                    type="text" id="fname" name="FirstName" placeholder="First Name*"
-                                                    maxlength="150" pattern="(?=^.{2,25}$)(?![.\n])(?=.*[a-zA-Z]).*$"
-                                                    required>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 ">
-                                            <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
-                                                    type="text" id="lname" name="LastName" placeholder="Last Name*"
-                                                    maxlength="150" pattern="(?=^.{2,25}$)(?![.\n])(?=.*[a-zA-Z]).*$"
-                                                    required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <div class="models_fieldGroup__C0awJ form-group">
-                                                <input class="models_field__K89L6 input_inputBox__Wf8vH form-control"
-                                                    type="email" id="email" name="Email" placeholder="Email ID*"
-                                                    maxlength="150"
-                                                    pattern="[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+"
-                                                    required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 ">
-                                            <div class="models_fieldGroup__C0awJ ">
-                                                <div class="mobile-input-group d-flex form-group">
-                                                    <input type="text" id="countryCodeInput"
-                                                        class="country-code-input models_field__K89L6 input_inputBox__Wf8vH form-control"
-                                                        value="+91" readonly>
-                                                    <input
-                                                        class="models_field__K89L6 input_inputBox__Wf8vH phone-number-input form-control"
-                                                        type="number" id="mobile" name="MobilePhone"
-                                                        placeholder="Mobile No.* (10 digits)" maxlength="10"
-                                                        pattern="[0-9]{10}" required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 ">
-                                            <div class="form-group">
-                                                <div
-                                                    class="models_OTPButton__osVob item-align position-relative otpinput-box d-flex">
-                                                    <button type="button" id="genarteOTP" class="genarteOTPBtn">Generate
-                                                        OTP</button>
-                                                    <input type="text" class="otpInput_enquirey_form form-control"
-                                                        id="otpInput_enquirey_form" disabled placeholder="Enter OTP"
-                                                        maxlength="6">
-                                                </div>
-                                                <div id="feedback" class="message" style="display:none;"></div>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="col-md-12">
-                                            <div class="row g-3">
-                                                <div class="col-md-6 col-12 ">
-                                                    <div class="models_fieldGroup__C0awJ form-group form-dropdown">
-                                                        <select
-                                                            class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
-                                                            id="inputState" name="State" required>
-                                                            <option value="">Select State</option>
-                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                                            <option value="Assam">Assam</option>
-                                                            <option value="Bihar">Bihar</option>
-                                                            <option value="Chhattisgarh">Chhattisgarh</option>
-                                                            <option value="Goa">Goa</option>
-                                                            <option value="Gujarat">Gujarat</option>
-                                                            <option value="Haryana">Haryana</option>
-                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                            <option value="Jharkhand">Jharkhand</option>
-                                                            <option value="Karnataka">Karnataka</option>
-                                                            <option value="Kerala">Kerala</option>
-                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                            <option value="Maharashtra">Maharashtra</option>
-                                                            <option value="Manipur">Manipur</option>
-                                                            <option value="Meghalaya">Meghalaya</option>
-                                                            <option value="Mizoram">Mizoram</option>
-                                                            <option value="Nagaland">Nagaland</option>
-                                                            <option value="Odisha">Odisha</option>
-                                                            <option value="Punjab">Punjab</option>
-                                                            <option value="Rajasthan">Rajasthan</option>
-                                                            <option value="Sikkim">Sikkim</option>
-                                                            <option value="Tamil Nadu">Tamil Nadu</option>
-                                                            <option value="Telangana">Telangana</option>
-                                                            <option value="Tripura">Tripura</option>
-                                                            <option value="Uttarakhand">Uttarakhand</option>
-                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                            <option value="West Bengal">West Bengal</option>
-                                                            <option disabled=""
-                                                                style="background-color:#aaa; color:#fff">UNION
-                                                                Territories</option>
-                                                            <option value="Andaman and Nicobar Islands">Andaman and
-                                                                Nicobar Islands</option>
-                                                            <option value="Chandigarh">Chandigarh</option>
-                                                            <option value="Dadra and Nagar Haveli">Dadra and Nagar
-                                                                Haveli</option>
-
-                                                            <option value="Daman and Diu">Daman and Diu</option>
-                                                            <option value="Delhi">Delhi</option>
-                                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                                            <option value="Ladakh">Ladakh</option>
-                                                            <option value="Lakshadweep">Lakshadweep</option>
-
-
-                                                            <option value="Puducherry">Puducherry</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-12 mt-md-3 mt-0">
-                                                    <div class="models_fieldGroup__C0awJ form-group form-dropdown">
-                                                        <select
-                                                            class="models_field__K89L6 input_inputBox__Wf8vH form-control form-select"
-                                                            id="inputDistrict" name="City" required>
-                                                            <option value="">-- Select City --</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mt-0" id="applicationFields"
-                                                    style="pointer-events: none;">
-                                                    <div class="models_fieldGroup__C0awJ form-check form-check-box">
-                                                        <input class="form-check-input models_checkInput__Ch2Vx"
-                                                            type="checkbox" id="defaultCheck1" name="Consent__c"
-                                                            value="true" required>
-                                                        <label class="form-check-label" for="defaultCheck1">
-                                                            I authorise NMIMS and/or their representatives to contact me
-                                                            via Phone, SMS, WhatsApp, and/or email. This will override
-                                                            registry on DND/NDNC.</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 text-center submit-btn">
-                                            <button type="submit" id="submitApplicationButton"
-                                                class="btn btn-primary PopfornBtn models_PopfornBtn__QP7jo disabled"
-                                                disabled>SUBMIT <span class="icon"><i class="n-icon"
-                                                        data-icon="i-msg"></i></span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-     
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 

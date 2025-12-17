@@ -60,7 +60,3 @@
     </span>
     Back To Top
 </div>
-<div class="ac-loader">
-        <div class="ac-loader__container">
-        </div>
-</div>
